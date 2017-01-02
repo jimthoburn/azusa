@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title><title>{% if page.title %}{{ page.title | escape }}{% elsif layout.title %}{{ layout.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title></title>
+
+  <link rel="stylesheet" href="/css/shared.css" />
+</head>
+<body>
+  <header>
+    <h2><a href="/home">Azusa High School</a></h2>
+    <p><a href="#menu">Menu</a></p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer id="menu">
+    <h2>Azusa High School</h2>
+    <ul>
+      <li>
+        <a href="/academics">Academics</a>
+      </li>
+      <li>
+        <a href="/athletics">Athletics</a>
+      </li>
+      <li>
+        <a href="/life">Student Life</a>
+      </li>
+      <li>
+        <a href="/wellness">Support &amp; Wellness</a>
+      </li>
+      <li>
+        <a href="/partnerships">Partnerships</a>
+      </li>
+      <li>
+        <a href="/staff">Our Staff</a>
+      </li>
+      <li>
+        <a href="/about">About Our School</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
