@@ -1,132 +1,23 @@
 
-  @charset "utf-8";
-
-  /* =Color
-  ----------------------------------------------- */
-
-  body {
-    background-color: rgba(255, 204, 0, 0.025); /* --gold */
-    color: rgb(42, 53, 56);
-  }
-
-  a {
-    color: rgb(0, 51, 135);
-  }
-
-  /* =Type
-  ----------------------------------------------- */
-
-  body {
-    font: 100%/1.25 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-
-  @media (min-width: 400px) and (min-height: 200px) {
-    body {
-      font-size: 112.5%;
-    }
-  }
-
-  @media (min-width: 500px) and (min-height: 250px) {
-    body {
-      font-size: 125%;
-    }
-  }
-
-  @media (min-width: 1000px) and (min-height: 50px) {
-    body {
-      font-size: 137.5%;
-    }
-  }
-
-  @media (min-width: 1500px) and (min-height: 750px) {
-    body {
-      font-size: 150%;
-    }
-  }
-
-  h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure {
-    margin-top: 0.625em;
-    margin-bottom: 0.625em;
-    max-width: 33em;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.25em;
-    font-weight: inherit;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
-  h1, h2 {
-    text-transform: uppercase;
-    font-weight: 300;
-  }
-
-  h1 strong, h2 strong {
-    font-weight: 400;
-  }
-
-  h1, h2, h3, h4, h5, h6, p {
-    max-width: 40em;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.25em;
-  }
-
-  h2 {
-    font-size: 2em;
-    margin-top: 0.625em;
-    margin-bottom: 0.3125em;
-  }
-
-  h3 {
-    font-size: 1.5em;
-    margin-top: 0.83333em;
-    margin-bottom: 0.41667em;
-  }
-
-  h4 {
-    font-size: 1.25em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-  }
-
-  h5, h6 {
-    font-size: 1em;
-    font-style: italic;
-  }
-
-  h6 {
-    font-weight: normal;
-  }
 
   /* =Layout
   ----------------------------------------------- */
-
   header, footer, nav, main {
-    padding: 1.25em;
+    padding: var(--line-height);
   }
-
   @media (min-width: 60em) {
     header, footer, nav, main {
-      padding: 2.5em;
+      padding: calc(var(--line-height) * 2);
     }
   }
-
   /* =Header
   ----------------------------------------------- */
-
   header,
   nav,
   footer {
-    background-color: rgb(255, 204, 0);
+    background-color: var(--school-color);
     color: rgba(0, 0, 0, 0.9);
   }
-
   header a,
   nav a,
   footer a {
@@ -134,7 +25,6 @@
     -webkit-transition: opacity 0.2s, color 0.2s, background-color 0.2s;
     transition: opacity 0.2s, color 0.2s, background-color 0.2s;
   }
-
   header a:hover,
   header a:active,
   header a:focus,
@@ -145,48 +35,39 @@
   footer a:active,
   footer a:focus {
   }
-
   header h2,
   header p {
     margin: 0;
     display: inline-block;
   }
-
   header h2 {
     font-size: inherit;
     font-weight: 400;
     margin-right: 1.5em;
   }
-
   header h2 a {
     color: inherit;
     text-decoration: inherit;
   }
-
   header h2 + p {
     font-style: italic;
     opacity: 0.75;
   }
-
   header .nav-link {
     float: right;
     margin: 0;
   }
-
   nav form {
     text-align: center;
   }
-
   nav form p {
     max-width: none;
   }
-
   nav label span:first-child {
     /* @hidden-accessible */
     position: absolute;
     left: -9999px;
   }
-
   input {
     -webkit-appearance: none;
     font-family: inherit;
@@ -201,18 +82,15 @@
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
   }
-
   input:focus {
     background-color: white;
   }
-
   @media (max-width: 30em) {
     input,
     button {
       width: 100%;
     }
   }
-
   header .nav-link a,
   button {
     -webkit-appearance: none;
@@ -229,7 +107,6 @@
     transition: background-color 0.2s;
     box-sizing: border-box;
   }
-
   header .nav-link a:hover,
   header .nav-link a:active,
   header .nav-link a:focus,
@@ -238,18 +115,15 @@
   button:focus {
     background-color: black;
   }
-
   header ul {
     margin-bottom: 0;
   }
-
   @media (min-width: 85em) {
     header ul {
       float: right;
       margin-top: 0;
     }
   }
-
   header ul,
   header li,
   nav ul,
@@ -260,14 +134,12 @@
     margin-left: 0;
     padding-left: 0;
   }
-
   header li,
   footer li {
     margin: 0 0.75em 0.75em;
     display: inline-block;
     vertical-align: top;
   }
-
   nav h2 {
     font-size: inherit;
     max-width: none;
@@ -276,11 +148,9 @@
     font-family: inherit;
     font-weight: bold;
   }
-
   nav > ul {
     text-align: left;
   }
-
   @media (min-width: 60em) {
     nav > ul {
       display: -webkit-box;
@@ -292,24 +162,19 @@
           justify-content: space-around;
     }
   }
-
   nav li {
     text-align: left;
   }
-
   nav > ul > li li a {
     text-decoration: none;
   }
-
   nav > ul > li li a:hover,
   nav > ul > li li a:active,
   nav > ul > li li a:focus {
     text-decoration: underline;
   }
-
   /* =Footer
   ----------------------------------------------- */
-
   footer h2 {
     margin-top: 0;
     font-size: inherit;
@@ -318,7 +183,6 @@
     font-weight: 400;
     line-height: inherit;
   }
-
   @media (min-width: 70em) {
     footer .contact {
       display: -webkit-box;
@@ -330,11 +194,9 @@
           flex-wrap: wrap;
     }
   }
-
   footer .contact p {
     margin-top: 0;
   }
-
   footer .legal {
     margin-top: 3em;
     text-align: center;
@@ -342,37 +204,31 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   footer .legal h2 img {
     width: 5.25em;
     height: 5.25em;
   }
-
   footer .legal h2,
   footer .legal p {
     max-width: none;
   }
-
   nav form {
     margin-top: 3em;
   }
-
   nav ul {
     max-width: none;
     text-align: center;
     margin-top: 0;
   }
-
   footer .nav ul {
     margin-top: 3em;
     max-width: none;
     text-align: center;
   }
-
   footer .nav:first-child ul {
     margin-top: 0;
     margin-bottom: 3em;
   }
 
 
-/*# sourceMappingURL=shared.css.map */
+/*# sourceMappingURL=layout.css.map */

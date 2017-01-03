@@ -1,0 +1,21 @@
+
+
+  /* =Color
+  ----------------------------------------------- */
+  :root {
+    --ocean: rgb(0, 51, 135);
+    --gold: rgb(255, 204, 0);
+
+    --school-color: var(--gold);
+    --link-color: var(--ocean);
+    --text-color: rgb(42, 53, 56);
+  }
+
+  body {
+    background-color: rgba(255, 204, 0, 0.025); /* --gold */
+    color: var(--text-color);
+  }
+
+  a {
+    color: var(--link-color);
+  }
