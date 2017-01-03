@@ -17,28 +17,28 @@ Always an Aztec!
   <ul>
     <li>
       <a href="staff.html">
-        <img src="images/teachers/IMG_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/IMG_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Beaton</h3>
         <p class="title">English, Yearbook &amp; Leadership</p>
       </a>
     </li>
     <li>
       <a href="staff.html">
-        <img src="images/teachers/IMG_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/IMG_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Ms. Benavides</h3>
         <p class="title">English</p>
       </a>
     </li>
     <li>
       <a href="staff.html">
-        <img src="images/teachers/IMG_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/IMG_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Bushem</h3>
         <p class="title">Math</p>
       </a>
     </li>
     <li>
       <a href="staff.html">
-        <img src="images/teachers/IMG_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/IMG_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mr. Calvillo</h3>
         <p class="title">Music</p>
       </a>
