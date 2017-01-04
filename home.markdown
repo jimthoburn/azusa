@@ -1,10 +1,10 @@
 ---
 title: Azusa High School, Every student college and career ready
-layout: default
 classname: home
+layout: default
 ---
 
-<img src="/images/photos/optimized/college.jpg" alt="" />
+<img src="/images/photos/optimized/college.jpg" style="object-position: top" alt="" />
 
 <!--
 Once an Aztec<br />
