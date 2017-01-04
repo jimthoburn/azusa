@@ -14,7 +14,7 @@
   }
 
   body {
-    background-color: rgba(255, 204, 0, 0.025); /* --gold */
+    background-color: rgba(57, 164, 208, 0.025); /* --light-blue */
     color: var(--text-color);
   }
 
