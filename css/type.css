@@ -3,7 +3,7 @@
   /* =Type
   ----------------------------------------------- */
   body {
-    font: 100%/1.25 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -28,12 +28,12 @@
     }
   }
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure {
-    margin-top: 0.625em;
-    margin-bottom: 0.625em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
     max-width: 33em;
   }
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.25em;
+    margin-top: 1.5em;
     font-weight: inherit;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
@@ -49,23 +49,23 @@
   }
   h1 {
     font-size: 2.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.25em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
   }
   h2 {
     font-size: 2em;
-    margin-top: 0.625em;
-    margin-bottom: 0.3125em;
+    margin-top: 0.75em;
+    margin-bottom: 0.375em;
   }
   h3 {
     font-size: 1.5em;
-    margin-top: 0.83333em;
-    margin-bottom: 0.41667em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
   }
   h4 {
     font-size: 1.25em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
   }
   h5, h6 {
     font-size: 1em;

@@ -10,6 +10,10 @@
       padding: calc(var(--line-height) * 2);
     }
   }
+  header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
   /* =Header
   ----------------------------------------------- */
   header,
