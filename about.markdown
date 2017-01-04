@@ -1,6 +1,6 @@
 ---
-layout: default
 title: About Azusa High School
+layout: default
 ---
 
 <img src="/images/photos/optimized/campus.jpg" alt="Students at the Azusa campus" style="object-position: bottom;" />

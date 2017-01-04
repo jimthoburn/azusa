@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Academics at Azusa High School
+layout: default
 ---
 
 <img src="/images/photos/optimized/academics.png" style="object-position: top;" alt="" />

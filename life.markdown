@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Student Life at Azusa High School
+layout: default
 ---
 
 ![](/images/photos/optimized/best-buddies.jpg)

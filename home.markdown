@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Azusa High School, Every student college and career ready
+layout: default
 classname: home
 ---
+
 <img src="/images/photos/optimized/college.jpg" alt="" />
 
 <!--
