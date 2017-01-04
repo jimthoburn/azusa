@@ -3,6 +3,8 @@ layout: default
 title: Student Life at Azusa High School
 ---
 
+![](/images/photos/best-buddies.jpg)
+
 # Student Life
 
 *   Pep rallies for each season of sports (Fall, winter, and spring)

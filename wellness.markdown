@@ -3,6 +3,8 @@ layout: default
 title: Support and Wellness Programs at Azusa High School
 ---
 
+![](/images/photos/computer-lab.jpg)
+
 # Support and Wellness Programs
 
 Bronze level award for Positive Behavior Intervention and Support (PBIS)

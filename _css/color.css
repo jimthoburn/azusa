@@ -5,8 +5,10 @@
   :root {
     --ocean: rgb(0, 51, 135);
     --gold: rgb(255, 204, 0);
+    --light-blue: rgb(57, 164, 208);
+    --lighter-blue: rgb(114, 211, 255);
 
-    --school-color: var(--gold);
+    --school-color: var(--lighter-blue);
     --link-color: var(--ocean);
     --text-color: rgb(42, 53, 56);
   }
@@ -19,3 +21,10 @@
   a {
     color: var(--link-color);
   }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+

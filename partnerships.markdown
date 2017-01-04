@@ -3,6 +3,8 @@ layout: default
 title: Partnerships with Azusa High School
 ---
 
+![](/images/photos/partnerships.png){: .primary}
+
 # Partnerships
 
 ## Community Partnerships

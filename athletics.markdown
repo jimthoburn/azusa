@@ -3,6 +3,8 @@ layout: default
 title: Athletics at Azusa High School
 ---
 
+![](/images/athletics.jpg)
+
 # Athletics
 
 State CIF Champions 2017 Volley

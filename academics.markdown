@@ -3,6 +3,8 @@ layout: default
 title: Academics at Azusa High School
 ---
 
+<img src="/images/photos/academics.png" style="object-position: top;" alt="" />
+
 # Academics
 
 Azusa is a certified [International Baccalaureate® Diploma Programme](http://ibo.org/en/programmes/diploma-programme/) school

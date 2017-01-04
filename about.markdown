@@ -3,6 +3,8 @@ layout: default
 title: About Azusa High School
 ---
 
+<img src="/images/photos/campus.jpg" alt="Students at the Azusa campus" style="object-position: bottom;" />
+
 # About Our School
 
 Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.
