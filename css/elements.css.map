@@ -1,1 +1,0 @@
-{"version":3,"sources":["elements.css"],"names":[],"mappings":";;EAEE;oDACkD;EAClD;IACE,kBAAkB;IAClB,aAAa;GACd;EAED;IACE,yBAAyB;GAC1B","file":"elements.css","sourcesContent":["\n\n  /* =Elements\n  ----------------------------------------------- */\n  body {\n    background: white;\n    color: black;\n  }\n\n  a {\n    color: var(--light-blue);\n  }\n\n"]}
