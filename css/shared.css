@@ -194,9 +194,15 @@
     opacity: 0.75;
   }
 
+  header {
+    padding-right: 6em;
+  }
+
   header .nav-link {
-    float: right;
     margin: 0;
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
   }
 
   nav form {
