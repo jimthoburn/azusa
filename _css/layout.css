@@ -273,6 +273,7 @@
       transform: translateY(-150%);
       background: black;
       background: rgba(0, 0, 0, 0.5);
+      max-width: none;
     }
     main > p:first-child + h1 + p,
     main > p:first-child + h1 + ul,
