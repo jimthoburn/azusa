@@ -599,7 +599,7 @@
   */
 
   .home main .staff-list {
-    
+    margin-top: 3em;
   }
 
   @media (min-width: 40em) {

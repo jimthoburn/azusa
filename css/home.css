@@ -16,7 +16,7 @@
   }
   */
   .home main .staff-list {
-    
+    margin-top: calc(var(--line-height) * 2);
   }
   @media (min-width: 40em) {
     .summaries {
