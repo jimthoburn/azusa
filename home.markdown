@@ -17,10 +17,6 @@ Our mission is to provide a 21st century education that emphasizes critical thin
 
 Learn more [about our school](/about)
 
-## Winter break is from December 23, 2016 - January 10, 2017.
-
-Students return to school on January 11th.
-
 <div class="staff-list">
   <h2>Our Teachers</h2>
   <ul>
@@ -67,6 +63,12 @@ Students return to school on January 11th.
   <li>Band room</li>
   <li>Choir room</li>
 </ul>
+
+## News & Announcements
+
+### Winter break is from December 23, 2016 - January 10, 2017.
+
+Students return to school on January 11th.
 
 <div class="feature">
   <h2>
