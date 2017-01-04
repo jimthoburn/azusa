@@ -54,6 +54,8 @@
   }
   .news-summary li {
     position: relative;
+    background: black;
+    color: white;
   }
   .news-summary li span {
     position: absolute;
@@ -230,7 +232,7 @@
     display: block;
   }
   .news-summary iframe {
-    max-width: 100%;
+    width: 100%;
     border-width: 0;
   }
   .introduction {

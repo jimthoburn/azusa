@@ -75,10 +75,10 @@ Learn more [about our school](/about)
     @azusahighschool
   </h2>
   <!--
-  <p class="more">See more <a href="news.html">news &amp; announcements</a></p>
+  <p class="more">See more <a href="/news">news &amp; announcements</a></p>
   -->
 
-  <a href="news.html#rotary-speech-contest">
+  <a href="https://www.instagram.com">
     <img src="http://ahs-ausd-ca.schoolloop.com/uimg/file/1471331230544/2353954799496144620.jpg_wnp1000.jpg?1479224450531" alt="International Students from Japan visited Azusa High School" />
     <p>On November 9, forty International Students from Japan visited Azusa High School. They were able to experience how the American educational system in implemented. It was a great day for them to learn about our culture and it was even more exciting learning about their culture and educational system!</p>
   </a>
@@ -98,21 +98,19 @@ Learn more [about our school](/about)
 
 <ul class="news-summary">
   <li>
-    <a href="news.html#cardboard">
+    <a href="https://www.instagram.com">
       <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM5MjQ1NDk5NTQuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD05OSZiYXNpc1dpZHRoPTEwMDA=" alt="Building Cardboard Chairs" />
       <span>2016 Homecoming</span>
     </a>
   </li>
   <li>
-    <a href="news.html#art">
+    <a href="https://www.instagram.com">
       <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYzMDAuanBnP2Nyb3BUb3A9MzImY3JvcFJpZ2h0PTkwMSZjcm9wQm90dG9tPTQ3OCZjcm9wTGVmdD0zMDYmYmFzaXNXaWR0aD0xMDAw" />
       <span>Aztec Cheer</span>
     </a>
   </li>
   <li>
-    <a href="news.html#rbuck">
-      <iframe src="https://drive.google.com/a/azusa.org/file/d/0B8uKDks0PtIVb2F6cERuR2FRMkU/preview" width="460" height="320"></iframe>
-      <span>2016 Graduation was amazing!</span>
-    </a>
+    <iframe src="https://drive.google.com/a/azusa.org/file/d/0B8uKDks0PtIVb2F6cERuR2FRMkU/preview" width="460" height="320"></iframe>
+    <span>2016 Graduation was amazing!</span>
   </li>
 </ul>
