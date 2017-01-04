@@ -9,18 +9,16 @@ collections:
     title: Uploads
     output: true
 permalink: pretty
-
-# These files aren’t needed in production.
 exclude:
-  - package.json
-  - gulpfile.js
-  - css/color.css
-  - css/color.css.map
-  - css/home.css
-  - css/home.css.map
-  - css/layout.css
-  - css/layout.css.map
-  - css/staff.css
-  - css/staff.css.map
-  - css/type.css
-  - css/type.css.map
+- package.json
+- gulpfile.js
+- css/color.css
+- css/color.css.map
+- css/home.css
+- css/home.css.map
+- css/layout.css
+- css/layout.css.map
+- css/staff.css
+- css/staff.css.map
+- css/type.css
+- css/type.css.map
