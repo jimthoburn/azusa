@@ -218,12 +218,19 @@
       display: -ms-flexbox;
       display: flex;
     }
+    .news-summary li {
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      -ms-flex-preferred-size: 33.3333%;
+          flex-basis: 33.3333%;
+    }
   }
   .news-summary img {
     display: block;
   }
   .news-summary iframe {
-    width: 100%;
+    max-width: 100%;
     border-width: 0;
   }
   .introduction {

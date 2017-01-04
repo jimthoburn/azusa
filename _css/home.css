@@ -212,12 +212,16 @@
     .news-summary {
       display: flex;
     }
+    .news-summary li {
+      flex-grow: 1;
+      flex-basis: 33.3333%;
+    }
   }
   .news-summary img {
     display: block;
   }
   .news-summary iframe {
-    width: 100%;
+    max-width: 100%;
     border-width: 0;
   }
 
