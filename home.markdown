@@ -1,7 +1,14 @@
 ---
 layout: default
 title: Azusa High School, Every student college and career ready
+classname: home
 ---
+<img src="/images/photos/optimized/college.jpg" alt="" />
+
+<!--
+Once an Aztec<br />
+Always an Aztec!
+-->
 
 # Every student college <small>and</small> career ready
 
@@ -9,99 +16,52 @@ Our mission is to provide a 21st century education that emphasizes critical thin
 
 Learn more [about our school](/about)
 
-Once an Aztec
-Always an Aztec!
-
 <div class="staff-list">
   <h2>Our Teachers</h2>
   <ul>
     <li>
-      <a href="staff.html">
-        <img src="/images/teachers/IMG_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <a href="/staff">
+        <img src="/images/teachers/optimized/img_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Beaton</h3>
         <p class="title">English, Yearbook &amp; Leadership</p>
       </a>
     </li>
     <li>
-      <a href="staff.html">
-        <img src="/images/teachers/IMG_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <a href="/staff">
+        <img src="/images/teachers/optimized/img_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Ms. Benavides</h3>
         <p class="title">English</p>
       </a>
     </li>
     <li>
-      <a href="staff.html">
-        <img src="/images/teachers/IMG_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <a href="/staff">
+        <img src="/images/teachers/optimized/img_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Bushem</h3>
         <p class="title">Math</p>
       </a>
     </li>
     <li>
-      <a href="staff.html">
-        <img src="/images/teachers/IMG_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+      <a href="/staff">
+        <img src="/images/teachers/optimized/img_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mr. Calvillo</h3>
         <p class="title">Music</p>
       </a>
     </li>
   </ul>
-  <p>See more <a href="staff.html">staff members</a></p>
+  <p>See more <a href="/staff">staff members</a></p>
 </div>
 
-<div class="summaries">
-  <div class="parents-summary">
-    <h2>Facilities</h2>
-    <ul>
-      <li>Gym</li>
-      <li>Theater</li>
-      <li>4 computer labs</li>
-      <li>Track and field</li>
-      <li>Ceramics lab</li>
-      <li>Engineering lab</li>
-      <li>Band room</li>
-      <li>Choir room</li>
-    </ul>
-  </div>
-</div>
-
-<!--
-<div class="summaries">
-  <div class="parents-summary">
-    <h2>Parents &amp; students</h2>
-    <p>Learn about attendance, handbooks, dress code and more on the <a href="parents.html">parents &amp; students</a> page</a>.</p>
-  </div>
-
-  <div class="calendar-summary">
-    <h2>Calendar</h2>
-    <dl>
-      <dt>November 9</dt><dd>Final Exams for Periods 1, 3 and 5<br /><em>school day ends at 12:15pm</em></dd>
-      <dt>November 11</dt><dd>Veterans Day<br /><em>school closed</em></dd>
-      <dt>November 14</dt><dd>Second Trimester Begins</dd>
-    </dl>
-    <p><a href="calendar.html">See full calendar</a></p>
-  </div>
-</div>
-
-<div class="summaries">
-  <div class="parents-summary">
-    <h2>Facilities</h2>
-    <ul>
-      <li>Gym</li>
-      <li>Multi-sport athletic field</li>
-      <li>Computer lab</li>
-      <li>Multiple computer carts</li>
-      <li>Art room with Kiln for firing ceramics</li>
-      <li>Parent Center</li>
-    </ul>
-  </div>
-
-  <div class="calendar-summary">
-    <h2>Awards</h2>
-    <ul>
-      <li><a href="http://www.acswasc.org">WASC</a> accreditation</li>
-      <li>Model Continuation School</li>
-  </div>
-</div>
--->
+<h2>Facilities</h2>
+<ul>
+  <li>Gym</li>
+  <li>Theater</li>
+  <li>4 computer labs</li>
+  <li>Track and field</li>
+  <li>Ceramics lab</li>
+  <li>Engineering lab</li>
+  <li>Band room</li>
+  <li>Choir room</li>
+</ul>
 
 <div class="feature">
   <h2>

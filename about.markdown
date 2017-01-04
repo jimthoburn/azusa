@@ -3,7 +3,7 @@ layout: default
 title: About Azusa High School
 ---
 
-<img src="/images/photos/campus.jpg" alt="Students at the Azusa campus" style="object-position: bottom;" />
+<img src="/images/photos/optimized/campus.jpg" alt="Students at the Azusa campus" style="object-position: bottom;" />
 
 # About Our School
 

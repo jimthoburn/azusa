@@ -3,7 +3,7 @@ layout: default
 title: Support and Wellness Programs at Azusa High School
 ---
 
-![](/images/photos/computer-lab.jpg)
+![](/images/photos/optimized/computer-lab.jpg)
 
 # Support and Wellness Programs
 

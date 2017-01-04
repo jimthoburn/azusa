@@ -215,7 +215,7 @@
   nav form {
     margin-top: calc(var(--line-height) * 2);
   }
-  @media (min-width: 60em) { /* --big-screen-width */ /* --big-screen-width */
+  @media (min-width: 60em) { /* --big-screen-width */
     nav form {
       margin-top: calc(var(--line-height) * 4);
     }
