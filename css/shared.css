@@ -10,7 +10,7 @@
   }
 
   a {
-    color: rgb(0, 51, 135);
+    color: rgb(57, 164, 208);
   }
 
   img {
@@ -54,26 +54,31 @@
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl, figure {
     margin-top: 0.75em;
     margin-bottom: 0.75em;
-    max-width: 33em;
+
+    /* Limit line lengths, for readability. */
+    max-width: 40rem;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
   }
 
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5em;
     font-weight: inherit;
+  }
+
+  h1 {
+    text-transform: uppercase;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
   h1, h2 {
-    text-transform: uppercase;
     font-weight: 300;
   }
 
   h1 strong, h2 strong {
     font-weight: 400;
-  }
-
-  h1, h2, h3, h4, h5, h6, p {
-    max-width: 40em;
   }
 
   h1 {
@@ -84,8 +89,19 @@
 
   h2 {
     font-size: 2em;
+    line-height: 1.125;
     margin-top: 0.75em;
     margin-bottom: 0.375em;
+  }
+
+  main h2 {
+    color: rgb(57, 164, 208);
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    h2 {
+      margin-top: 1.5em; /* Twice the usual margin */
+    }
   }
 
   h3 {
@@ -696,6 +712,7 @@
     padding: 1.5em;
     font-family: inherit;
     text-transform: inherit;
+    color: inherit;
 
     /* For the instagram username */
     /* @wrap-long-words */
