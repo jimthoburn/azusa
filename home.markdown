@@ -17,6 +17,51 @@ Our mission is to provide a 21st century education that emphasizes critical thin
 
 Learn more [about our school](/about)
 
+<!--
+<div class="introduction">
+  <img src="/images/students/IMG_0760.jpg" width="500" alt="" />
+  <div>
+    <h1>Bringing aspiration into reality</h1>
+
+    <p>Sierra High School is a place where students have a second opportunity to achieve academic success. To bring this aspiration into reality we:</p>
+
+    <ul>
+      <li>model and build good relationships</li>
+      <li>develop skills and knowledge</li>
+      <li>foster independent thinking in a safe environment</li>
+    </ul>
+    <p>Learn more <a href="about.html">about our school</a></p>
+  </div>
+</div>
+<script>
+(function() {
+  var images = [
+    '/images/students/IMG_0284.jpg',
+    '/images/students/IMG_0325.jpg',
+    '/images/students/IMG_0381.jpg',
+    '/images/students/IMG_0482.jpg',
+    '/images/students/IMG_0614.jpg',
+    '/images/students/IMG_0683.jpg',
+    '/images/students/IMG_0731.jpg',
+    '/images/students/IMG_0760.jpg',
+    '/images/students/IMG_1065.jpg'
+  ];
+  var min = 0;
+  var max = images.length - 1;
+  var random = Math.floor(Math.random() * (max - min + 1) + min);
+  var image = document.querySelector('.introduction img');
+  image.src = images[random];
+  if (images[random].indexOf('IMG_0284.jpg') >= 0 ||
+      images[random].indexOf('IMG_0381.jpg') >= 0 ||
+      images[random].indexOf('IMG_0482.jpg') >= 0 ||
+      images[random].indexOf('IMG_0614.jpg') >= 0 ||
+      images[random].indexOf('IMG_1065.jpg') >= 0) {
+    image.parentNode.className += ' reverse';
+  }
+})();
+</script>
+-->
+
 <div class="staff-list">
   <h2>Our Teachers</h2>
   <ul>
@@ -52,17 +97,37 @@ Learn more [about our school](/about)
   <p>See more <a href="/staff">staff members</a></p>
 </div>
 
-<h2>Facilities</h2>
-<ul>
-  <li>Gym</li>
-  <li>Theater</li>
-  <li>4 computer labs</li>
-  <li>Track and field</li>
-  <li>Ceramics lab</li>
-  <li>Engineering lab</li>
-  <li>Band room</li>
-  <li>Choir room</li>
-</ul>
+
+<div class="summaries">
+  <div class="facilities-summary">
+    <h2>Facilities</h2>
+    <ul>
+      <li>Gym</li>
+      <li>Theater</li>
+      <li>4 computer labs</li>
+      <li>Track and field</li>
+      <li>Ceramics lab</li>
+      <li>Engineering lab</li>
+      <li>Band room</li>
+      <li>Choir room</li>
+    </ul>
+  </div>
+
+  <div class="parents-summary">
+    <h2>Parents &amp; students</h2>
+    <p>Learn about attendance, handbooks, dress code and more on the <a href="http://ahs-ausd-ca.schoolloop.com/parentwelcome">parents &amp; students</a> page.</p>
+  </div>
+
+  <div class="calendar-summary">
+    <h2>Calendar</h2>
+    <dl>
+      <dt>January 9</dt><dd>Planning Day<br /><em>No School</em></dd>
+      <dt>January 10</dt><dd>Teacher PLC Day<br /><em>No School</em></dd>
+      <dt>January 11</dt><dd>Students Return from Break </dd>
+    </dl>
+    <p><a href="http://ahs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510104&month_id=0&include_subgroups=true&return_url=1483559579491">See full calendar</a></p>
+  </div>
+</div>
 
 ## News & Announcements
 

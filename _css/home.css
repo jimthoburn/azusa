@@ -18,15 +18,30 @@
   .home main .staff-list {
     margin-top: calc(var(--line-height) * 2);
   }
+  .summaries {
+    margin-top: calc(var(--line-height) * 2);
+    margin-left: calc(var(--line-height) * -1);
+    margin-right: calc(var(--line-height) * -1);
+  }
+  @media (min-width: 60em) { /* --big-screen-width */
+    .summaries {
+      margin-left: calc(var(--line-height) * -2);
+      margin-right: calc(var(--line-height) * -2);
+    }
+  }
   @media (min-width: 40em) {
     .summaries {
       display: flex;
+      flex-wrap: wrap;
     }
   }
   .summaries div {
-    flex-basis: 50%;
+    flex-grow: 1;
     padding: 3em 1.5em;
     background-color: rgb(222, 222, 222); /* @silver */
+  }
+  .summaries .facilities-summary {
+    background-color: white;
   }
   .summaries .parents-summary {
     background-color: rgb(238, 238, 238); /* @seashell */

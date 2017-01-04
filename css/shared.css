@@ -470,6 +470,87 @@
     margin-top: 0;
   }
 
+  /* =Schedule
+  ----------------------------------------------- */
+
+  .schedule {
+    padding: 1.5em;
+  }
+
+  @media (min-width: 60em) {
+    .schedule {
+      padding: 3em;
+    }
+  }
+
+  .schedule section h2 {
+    margin-top: 0;
+  }
+
+  dl:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  dt {
+    clear: both;
+    float: left;
+    width: 25%;
+    text-align: right;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    box-sizing: border-box;
+    color: rgb(57, 164, 208);
+  }
+
+  dt + dd {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+  }
+
+  dd {
+    padding-left: 1.5em;
+    padding-bottom: 0.375em;
+    margin-left: 25%;
+    width: 75%;
+    box-sizing: border-box;
+    color: black;
+  }
+
+  dd em {
+    opacity: 0.5;
+  }
+
+  dd span {
+    display: inline-block;
+    min-width: 3em;
+  }
+
+  dd span:first-child {
+    text-align: right;
+  }
+
+  .schedule > section + section {
+    margin-top: 3em;
+  }
+
+  @media (min-width: 60em) {
+    .schedule:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .schedule > section {
+      float: left;
+      width: 50%;
+    }
+    .schedule > section + section {
+      margin-top: 0;
+    }
+  }
+
   /* =Staff
   ----------------------------------------------- */
 
@@ -627,19 +708,39 @@
     margin-top: 3em;
   }
 
+  .summaries {
+    margin-top: 3em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    .summaries {
+      margin-left: -3em;
+      margin-right: -3em;
+    }
+  }
+
   @media (min-width: 40em) {
     .summaries {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
     }
   }
 
   .summaries div {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     padding: 3em 1.5em;
     background-color: rgb(222, 222, 222); /* @silver */
+  }
+
+  .summaries .facilities-summary {
+    background-color: white;
   }
 
   .summaries .parents-summary {

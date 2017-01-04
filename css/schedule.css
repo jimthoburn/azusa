@@ -1,0 +1,71 @@
+
+  /* =Schedule
+  ----------------------------------------------- */
+  .schedule {
+    padding: 1.5em;
+  }
+  @media (min-width: 60em) {
+    .schedule {
+      padding: 3em;
+    }
+  }
+  .schedule section h2 {
+    margin-top: 0;
+  }
+  dl:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  dt {
+    clear: both;
+    float: left;
+    width: 25%;
+    text-align: right;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    box-sizing: border-box;
+    color: var(--light-blue);
+  }
+  dt + dd {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+  }
+  dd {
+    padding-left: 1.5em;
+    padding-bottom: 0.375em;
+    margin-left: 25%;
+    width: 75%;
+    box-sizing: border-box;
+    color: black;
+  }
+  dd em {
+    opacity: 0.5;
+  }
+  dd span {
+    display: inline-block;
+    min-width: 3em;
+  }
+  dd span:first-child {
+    text-align: right;
+  }
+  .schedule > section + section {
+    margin-top: 3em;
+  }
+  @media (min-width: 60em) {
+    .schedule:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .schedule > section {
+      float: left;
+      width: 50%;
+    }
+    .schedule > section + section {
+      margin-top: 0;
+    }
+  }
+
+/*# sourceMappingURL=schedule.css.map */
