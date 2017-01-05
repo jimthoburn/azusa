@@ -309,7 +309,7 @@
   @media (min-width: 60em) { /* --big-screen-width */
     main > p:first-child + h1 {
       position: absolute;
-      top: 70vh;
+      top: 90vh;
       left: 0;
       padding-left: var(--line-height);
       padding-right: calc(var(--line-height) / 2);
@@ -319,7 +319,7 @@
       transform: translateY(-150%);
       background: black;
       background: rgba(0, 0, 0, 0.5);
-      max-width: none;
+      max-width: 15em;
     }
     main > p:first-child + h1 + p,
     main > p:first-child + h1 + ul,
