@@ -73,6 +73,11 @@
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
+  header h2 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  }
+
   h1, h2 {
     font-weight: 300;
   }
@@ -721,6 +726,11 @@
     }
   }
 
+  .summaries div {
+    padding: 3em 1.5em;
+    background-color: rgb(222, 222, 222); /* @silver */
+  }
+
   @media (min-width: 40em) {
     .summaries {
       display: -webkit-box;
@@ -729,14 +739,26 @@
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
     }
+    .summaries div {
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+    }
   }
 
-  .summaries div {
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    padding: 3em 1.5em;
-    background-color: rgb(222, 222, 222); /* @silver */
+  @media (min-width: 80em) {
+    .summaries {
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+    }
+    .summaries div {
+      -ms-flex-preferred-size: 25%;
+          flex-basis: 25%;
+    }
+    .summaries .calendar-summary {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+    }
   }
 
   .summaries .facilities-summary {

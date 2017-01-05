@@ -29,16 +29,29 @@
       margin-right: calc(var(--line-height) * -2);
     }
   }
+  .summaries div {
+    padding: 3em 1.5em;
+    background-color: rgb(222, 222, 222); /* @silver */
+  }
   @media (min-width: 40em) {
     .summaries {
       display: flex;
       flex-wrap: wrap;
     }
+    .summaries div {
+      flex-grow: 1;
+    }
   }
-  .summaries div {
-    flex-grow: 1;
-    padding: 3em 1.5em;
-    background-color: rgb(222, 222, 222); /* @silver */
+  @media (min-width: 80em) {
+    .summaries {
+      flex-wrap: nowrap;
+    }
+    .summaries div {
+      flex-basis: 25%;
+    }
+    .summaries .calendar-summary {
+      flex-basis: 50%;
+    }
   }
   .summaries .facilities-summary {
     background-color: white;
