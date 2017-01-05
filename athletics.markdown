@@ -3,7 +3,7 @@ title: Athletics at Azusa High School
 layout: default
 ---
 
-![](/images/athletics-optimized.jpg)
+![](/images/athletics.jpg)
 
 # Athletics
 

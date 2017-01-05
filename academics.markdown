@@ -3,7 +3,7 @@ title: Academics at Azusa High School
 layout: default
 ---
 
-<img src="/images/photos/optimized/academics.png" style="object-position: top;" alt="" />
+<img src="/images/photos/academics.png" style="object-position: top;" alt="" />
 
 # Academics
 

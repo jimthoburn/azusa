@@ -4,7 +4,7 @@ classname: home
 layout: default
 ---
 
-<img src="/images/photos/optimized/college.jpg" style="object-position: top" alt="" />
+<img src="/images/photos/college.jpg" style="object-position: top" alt="" />
 
 <!--
 Once an Aztec<br />
@@ -67,28 +67,28 @@ Learn more [about our school](/about)
   <ul>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/optimized/img_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/img_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Beaton</h3>
         <p class="title">English, Yearbook &amp; Leadership</p>
       </a>
     </li>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/optimized/img_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/img_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Ms. Benavides</h3>
         <p class="title">English</p>
       </a>
     </li>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/optimized/img_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/img_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mrs. Bushem</h3>
         <p class="title">Math</p>
       </a>
     </li>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/optimized/img_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
+        <img src="/images/teachers/img_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
         <h3>Mr. Calvillo</h3>
         <p class="title">Music</p>
       </a>

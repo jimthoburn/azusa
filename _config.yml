@@ -10,8 +10,11 @@ collections:
     output: true
 permalink: pretty
 exclude:
+- CNAME
+- README.md
 - package.json
 - gulpfile.js
+- node_modules
 - css/color.css
 - css/color.css.map
 - css/home.css
