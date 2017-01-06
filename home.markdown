@@ -135,6 +135,10 @@ Learn more [about our school](/about)
 
 Students return to school on January 11th.
 
+### Math tutoring is now available
+
+Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of this opportunity!
+
 <div class="feature">
   <h2>
     <svg class="icon" viewBox="0 0 24 24" width="48" height="48">

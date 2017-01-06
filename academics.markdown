@@ -55,7 +55,7 @@ Courses to Support our English Learners:
 
 Math elective course to support our struggling students
 
-## Advanced Placement And Honors Courses
+## Advanced Placement & Honors Courses
 
 We offer numerous Honors, AP, and IB Courses. Some are grade specific and some are based on student progress levels. Any course that is not grade specific are included following the grade specific classes.
 10th Grade
@@ -123,7 +123,7 @@ Honors English II
 * Emergency Medical Technician
 * Computer Applications ROTC
 
-## Pathway Programs / College-Career Prep Courses
+## Pathway Programs & College-Career Prep Courses
 
 * Project Lead the Way, Academy of Engineering and Computer Science
 * Business, Academy of Finance and Accounting

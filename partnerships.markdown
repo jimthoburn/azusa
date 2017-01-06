@@ -9,24 +9,25 @@ layout: default
 
 ## Community Partnerships
 
-*   Chick fil A Leader Academy Vulcan Materials Company
+*   Chick-fil-A Leader Academy
+*   Vulcan Materials Company
 *   J & J Sports
 *   DeLong Sports
 *   JGarcia Photography
 *   Northrup Grumman
 
-## College/University Partnerships
+## Colleges and Universities
 
 *   Azusa Pacific University
 *   Citrus College
 *   UC Riverside
 *   We partner with numerous colleges to provide regular college presentations and they attend the district annual College Fair Scholarship Donations
 
-## Corporate Partnerships
+## Corporations
 
 *   School’s First Credit Union Foothill Federal Credit Union
 
-## Non-Profits/Other
+## Non-Profits and Others
 
 *   ITAC - It Takes a Community Covina Sunrise Rotary Azusa Police Department
 *   We have partnerships with the following organizations that provide scholarships:
