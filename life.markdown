@@ -19,7 +19,7 @@ layout: default
 
 ## Clubs
 
-*   Best Buddies
+*   [Best Buddies](https://bestbuddies.org), ([Facebook page](https://www.facebook.com/Aztec-Best-Buddies-361528793940131/))
 *   AVID
 *   Band and Pageantry
 *   JROTC
