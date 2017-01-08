@@ -3,12 +3,12 @@
   /* =Color
   ----------------------------------------------- */
   :root {
-    --ocean: rgb(0, 51, 135);
-    --gold: rgb(255, 204, 0);
     --light-blue: rgb(57, 164, 208);
     --lighter-blue: rgb(114, 211, 255);
 
     --school-color: var(--lighter-blue);
+    --highlight-color: var(--light-blue);
+
     --link-color: var(--light-blue);
     --text-color: rgb(42, 53, 56);
   }
@@ -20,4 +20,17 @@
 
   a {
     color: var(--link-color);
+  }
+
+  main h2 {
+    color: var(--headline-color);
+  }
+  dt {
+    color: var(--headline-color);
+  }
+  header,
+  nav,
+  footer {
+    background-color: var(--lighter-blue);
+    color: rgba(0, 0, 0, 0.9);
   }

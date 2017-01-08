@@ -20,12 +20,6 @@
 
   /* =Header
   ----------------------------------------------- */
-  header,
-  nav,
-  footer {
-    background-color: var(--school-color);
-    color: rgba(0, 0, 0, 0.9);
-  }
   header a,
   nav a,
   footer a {
@@ -64,13 +58,13 @@
     line-height: 1;
     margin-bottom: -1em;
   }
-  @media (min-width: 21em) {
+  @media (min-width: 22em) {
     header h2 + p {
       margin: 0;
       line-height: inherit;
     }
     header {
-      padding-left: calc(var(--line-height) * 3.5);
+      padding-left: calc(var(--line-height) * 4.5);
     }
     header h2 img {
       margin-top: 0;
@@ -148,7 +142,7 @@
     -webkit-appearance: none;
     font-family: inherit;
     font-size: inherit;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: var(--button-color, rgba(0, 0, 0, 0.25));
     color: white;
     border-width: 0;
     padding: 0.375em 0.75em;

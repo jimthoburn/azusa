@@ -120,7 +120,7 @@ Learn more [about our school](/about)
 
   <div class="calendar-summary">
     <h2>Calendar</h2>
-    <dl>
+    <dl class="calendar">
       <dt>January 9</dt><dd>Planning Day<br /><em>No School</em></dd>
       <dt>January 10</dt><dd>Teacher PLC Day<br /><em>No School</em></dd>
       <dt>January 11</dt><dd>Students Return from Break </dd>
@@ -129,15 +129,26 @@ Learn more [about our school](/about)
   </div>
 </div>
 
-## News & Announcements
+<section>
+
+<h2>News &amp; Announcements</h2>
+
+<ul>
+<li markdown="1">
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
+</li>
+<li markdown="1">
+
 ### Math tutoring is now available
 
 Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of this opportunity!
+
+</li>
+</ul>
 
 <div class="feature">
   <h2>
