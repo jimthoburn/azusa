@@ -303,7 +303,9 @@
   @media (min-width: 60em) { /* --big-screen-width */
     main > p:first-child + h1 {
       position: absolute;
+      /*
       top: 90vh;
+      */
       left: 0;
       padding-left: var(--line-height);
       padding-right: calc(var(--line-height) / 2);
