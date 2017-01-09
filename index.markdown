@@ -2,9 +2,9 @@
 title: Azusa High School, Every student college and career ready
 classname: home
 layout: default
+standard: false
+image: /images/photos/college.jpg
 ---
-
-<img src="/images/photos/college.jpg" style="object-position: top" alt="" />
 
 <!--
 Once an Aztec<br />
@@ -129,9 +129,11 @@ Learn more [about our school](/about)
   </div>
 </div>
 
-<section>
+<section class="announcements">
 
+<header>
 <h2>News &amp; Announcements</h2>
+</header>
 
 <ul>
 <li markdown="1">
@@ -149,6 +151,7 @@ Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of 
 
 </li>
 </ul>
+</section>
 
 <div class="feature">
   <h2>

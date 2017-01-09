@@ -1,6 +1,7 @@
 ---
 title: Staff at Azusa High School
 layout: default
+standard: false
 ---
 
 <h1>Staff</h1>

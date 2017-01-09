@@ -1,9 +1,8 @@
 ---
 title: Partnerships with Azusa High School
 layout: default
+image: /images/photos/partnerships.jpg
 ---
-
-![](/images/photos/partnerships.jpg)
 
 # Partnerships
 

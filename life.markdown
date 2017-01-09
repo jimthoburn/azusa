@@ -1,9 +1,8 @@
 ---
 title: Student Life at Azusa High School
 layout: default
+image: /images/photos/best-buddies.jpg
 ---
-
-![](/images/photos/best-buddies.jpg)
 
 # Student Life
 

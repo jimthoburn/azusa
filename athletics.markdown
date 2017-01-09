@@ -1,9 +1,8 @@
 ---
 title: Athletics at Azusa High School
 layout: default
+image: /images/athletics.jpg
 ---
-
-![](/images/athletics.jpg)
 
 # Athletics
 

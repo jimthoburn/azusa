@@ -6,7 +6,7 @@
 
   body {
     background-color: rgba(57, 164, 208, 0.025); /* --light-blue */
-    color: rgb(42, 53, 56);
+    color: rgb(40, 41, 43);
   }
 
   a {
@@ -14,16 +14,16 @@
   }
 
   main h2 {
-    color: var(--headline-color);
+    color: rgb(57, 164, 208);
   }
 
   dt {
-    color: var(--headline-color);
+    color: rgb(57, 164, 208);
   }
 
-  header,
-  nav,
-  footer {
+  body > header,
+  body > nav,
+  body > footer {
     background-color: rgb(114, 211, 255);
     color: rgba(0, 0, 0, 0.9);
   }
@@ -104,33 +104,38 @@
   }
 
   h2 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  /*
+  h2 {
     font-size: 2em;
     line-height: 1.125;
-    margin-top: 0.75em;
-    margin-bottom: 0.375em;
+    margin-top   : calc(var(--line-height) / 2em);
+    margin-bottom: calc(var(--line-height) / 2em / 2);
   }
 
-  main h2 {
-    color: rgb(57, 164, 208);
-  }
-
-  @media (min-width: 60em) { /* --big-screen-width */
+  @media (min-width: 60em) { --big-screen-width
     h2 {
-      margin-top: 1.5em; /* Twice the usual margin */
+      margin-top: calc(var(--line-height) / 2em * 2); Twice the usual margin
     }
   }
+  */
 
+  /*
   h3 {
     font-size: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top   : calc(var(--line-height) / 1.5em);
+    margin-bottom: calc(var(--line-height) / 1.5em / 2);
   }
 
   h4 {
     font-size: 1.25em;
-    margin-top: 1.2em;
-    margin-bottom: 0.6em;
+    margin-top   : calc(var(--line-height) / 1.25em);
+    margin-bottom: calc(var(--line-height) / 1.25em / 2);
   }
+  */
 
   h5 {
     font-size: inherit;
@@ -168,7 +173,7 @@
     padding-top: 0.375em;
     padding-bottom: 0.375em;
     box-sizing: border-box;
-    color: rgb(57, 164, 208);
+    color: var(--highlight-color);
   }
 
   dl.calendar dt + dd {
@@ -198,6 +203,55 @@
     text-align: right;
   }
 
+  /* =Announcements
+  ----------------------------------------------- */
+
+  .announcements {
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+
+  .announcements ul,
+  .announcements li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .announcements ul {
+    max-width: none;
+    margin: 0;
+  }
+
+  .announcements header,
+  .announcements li {
+    padding: 3em;
+  }
+
+  .announcements header {
+    padding-bottom: 0;
+  }
+
+  .announcements h2 {
+    margin: 0;
+  }
+
+  .announcements li {
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+
+  .announcements li:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.025);
+  }
+
+  .announcements li:nth-child(3n) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  .announcements li h3 {
+    margin-top: 0;
+  }
+
   /* =Layout
   ----------------------------------------------- */
 
@@ -216,41 +270,47 @@
     padding-bottom: 2.25em;
   }
 
+  main.standard {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   /* =Header
   ----------------------------------------------- */
 
-  header a,
-  nav a,
-  footer a {
+  body > header a,
+  body > nav a,
+  body > footer a {
     color: inherit;
     -webkit-transition: opacity 0.2s, color 0.2s, background-color 0.2s;
     transition: opacity 0.2s, color 0.2s, background-color 0.2s;
   }
 
-  header a:hover,
-  header a:active,
-  header a:focus,
-  nav a:hover,
-  nav a:active,
-  nav a:focus,
-  footer a:hover,
-  footer a:active,
-  footer a:focus {
+  body > header a:hover,
+  body > header a:active,
+  body > header a:focus,
+  body > nav a:hover,
+  body > nav a:active,
+  body > nav a:focus,
+  body > footer a:hover,
+  body > footer a:active,
+  body > footer a:focus {
   }
 
-  header h2 {
+  body > header h2 {
     font-size: inherit;
     font-weight: 400;
     margin-right: 1.5em;
     margin: 0;
   }
 
-  header h2 a {
+  body > header h2 a {
     color: inherit;
     text-decoration: inherit;
   }
 
-  header h2 img {
+  body > header h2 img {
     margin-top: -1.5em;
     margin-bottom: 0.75em;
     display: block;
@@ -258,21 +318,21 @@
     width: auto;
   }
 
-  header h2 + p {
+  body > header h2 + p {
     margin-top: 0.25em;
     line-height: 1;
     margin-bottom: -1em;
   }
 
   @media (min-width: 22em) {
-    header h2 + p {
+    body > header h2 + p {
       margin: 0;
       line-height: inherit;
     }
-    header {
+    body > header {
       padding-left: 6.75em;
     }
-    header h2 img {
+    body > header h2 img {
       margin-top: 0;
       top: 1.3125em;
       left: 0.75em;
@@ -281,28 +341,28 @@
   }
 
   @media (min-width: 44em) {
-    header h2,
-    header h2 + p {
+    body > header h2,
+    body > header h2 + p {
       display: inline-block;
     }
-    header h2 {
+    body > header h2 {
       margin-right: 1.5em;
     }
-    header h2 img {
+    body > header h2 img {
       top: 0.75em;
     }
   }
 
-  header h2 + p {
+  body > header h2 + p {
     font-style: italic;
     opacity: 0.75;
   }
 
-  header {
+  body > header {
     padding-right: 6em;
   }
 
-  header .nav-link {
+  body > header .nav-link {
     margin: 0;
     position: absolute;
       top: 2.25em;
@@ -310,21 +370,21 @@
   }
 
   @media (min-width: 60em) {
-    header .nav-link {
+    body > header .nav-link {
       top: 2.25em;
       right: 2.25em;
     }
   }
 
-  nav form {
+  body > nav form {
     text-align: center;
   }
 
-  nav form p {
+  body > nav form p {
     max-width: none;
   }
 
-  nav label span:first-child {
+  body > nav label span:first-child {
     /* @hidden-accessible */
     position: absolute;
     left: -9999px;
@@ -356,12 +416,13 @@
     }
   }
 
-  header .nav-link a,
+  body > header .nav-link a,
   button {
     -webkit-appearance: none;
     font-family: inherit;
     font-size: inherit;
     background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgb(57, 164, 208);
     color: white;
     border-width: 0;
     padding: 0.375em 0.75em;
@@ -373,16 +434,16 @@
     box-sizing: border-box;
   }
 
-  header .nav-link a:hover,
-  header .nav-link a:active,
-  header .nav-link a:focus,
+  body > header .nav-link a:hover,
+  body > header .nav-link a:active,
+  body > header .nav-link a:focus,
   button:hover,
   button:active,
   button:focus {
     background-color: black;
   }
 
-  header ul {
+  body > header ul {
     margin-bottom: 0;
   }
 
@@ -393,25 +454,25 @@
     }
   }
 
-  header ul,
-  header li,
-  nav ul,
-  nav li,
-  footer ul,
-  footer li {
+  body > header ul,
+  body > header li,
+  body > nav ul,
+  body > nav li,
+  body > footer ul,
+  body > footer li {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
   }
 
-  header li,
-  footer li {
+  body > header li,
+  body > footer li {
     margin: 0 0.75em 0.75em;
     display: inline-block;
     vertical-align: top;
   }
 
-  nav h2 {
+  body > nav h2 {
     font-size: inherit;
     max-width: none;
     font-weight: inherit;
@@ -420,12 +481,12 @@
     font-weight: bold;
   }
 
-  nav > ul {
+  body > nav > ul {
     text-align: left;
   }
 
   @media (min-width: 60em) { /* --big-screen-width */
-    nav > ul {
+    body > nav > ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -436,24 +497,24 @@
     }
   }
 
-  nav li {
+  body > nav li {
     text-align: left;
   }
 
-  nav > ul > li li a {
+  body > nav > ul > li li a {
     text-decoration: none;
   }
 
-  nav > ul > li li a:hover,
-  nav > ul > li li a:active,
-  nav > ul > li li a:focus {
+  body > nav > ul > li li a:hover,
+  body > nav > ul > li li a:active,
+  body > nav > ul > li li a:focus {
     text-decoration: underline;
   }
 
   /* =Footer
   ----------------------------------------------- */
 
-  footer h2 {
+  body > footer h2 {
     margin-top: 0;
     font-size: inherit;
     line-height: inherit;
@@ -463,7 +524,7 @@
   }
 
   @media (min-width: 70em) {
-    footer .contact {
+    body > footer .contact {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -474,11 +535,11 @@
     }
   }
 
-  footer .contact p {
+  body > footer .contact p {
     margin-top: 0;
   }
 
-  footer .legal {
+  body > footer .legal {
     margin-top: 3em;
     text-align: center;
     max-width: 40em;
@@ -486,74 +547,66 @@
     margin-right: auto;
   }
 
-  footer .legal h2 img {
+  body > footer .legal h2 img {
     width: 5.25em;
     height: 5.25em;
   }
 
-  footer .legal h2,
-  footer .legal p {
+  body > footer .legal h2,
+  body > footer .legal p {
     max-width: none;
   }
 
-  nav form {
+  body > nav form {
     margin-top: 3em;
   }
 
   @media (min-width: 60em) { /* --big-screen-width */
-    nav form {
+    body > nav form {
       margin-top: 6em;
     }
   }
 
-  nav ul {
+  body > nav ul {
     max-width: none;
     text-align: center;
     margin-top: 0;
   }
 
-  footer .nav ul {
+  body > footer .nav ul {
     margin-top: 3em;
     max-width: none;
     text-align: center;
   }
 
-  footer .nav:first-child ul {
+  body > footer .nav:first-child ul {
     margin-top: 0;
     margin-bottom: 3em;
+  }
+
+  main h1:first-child {
+    margin-top: 0;
   }
 
   /* =Primary Image
   ----------------------------------------------- */
 
-  main > p:first-child {
-    max-width: none;
-    margin: -1.5em;
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 60em) { /* --big-screen-width */
-    main > p:first-child {
-      margin: -3em;
-      margin-bottom: 0;
-    }
-  }
-
-  main > p:first-child img {
+  img.primary {
     display: block;
   }
 
   @media (min-aspect-ratio: 1/1) {
-    main > p:first-child img {
+    img.primary {
       width: 100%;
+      /*
       height: 70vh;
-      -o-object-fit: cover;
-         object-fit: cover;
+      object-fit: cover;
+      */
     }
   }
 
   @media (min-width: 60em) { /* --big-screen-width */
-    main > p:first-child + h1 {
+    img.primary + main h1 {
       position: absolute;
       /*
       top: 90vh;
@@ -561,24 +614,22 @@
       left: 0;
       padding-left: 1.5em;
       padding-right: 0.75em;
-      margin-top: 0;
+      margin-top: -1.5em;
       margin-bottom: 0;
       color: white;
-      -webkit-transform: translateY(-150%);
-              transform: translateY(-150%);
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
       background: black;
       background: rgba(0, 0, 0, 0.5);
       max-width: 15em;
     }
-    main > p:first-child + h1 + p,
-    main > p:first-child + h1 + ul,
-    main > p:first-child + h1 + dl {
-      margin-top: 3em;
+    /*
+    img.primary + main h1 + p,
+    img.primary + main h1 + ul,
+    img.primary + main h1 + dl {
+      margin-top: calc(var(--line-height) * 2);
     }
-  }
-
-  main h1:first-child {
-    margin-top: 0;
+    */
   }
 
   /* =Staff
@@ -822,18 +873,28 @@
     color: white;
   }
 
+  .news-summary li::before {
+    content: "";
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .news-summary li span {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 0.75em 1.5em;
-    background: rgba(0, 0, 0, 0.5);
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    padding: 1.5em;
   }
 
   @media (min-width: 60em) {
     .news-summary li span {
+      padding: 3em;
     }
   }
 
@@ -910,7 +971,6 @@
   }
 
   .home main .feature {
-    margin-top: 3em;
     position: relative;
     background: black;
     color: white;

@@ -6,11 +6,14 @@
     --light-blue: rgb(57, 164, 208);
     --lighter-blue: rgb(114, 211, 255);
 
-    --school-color: var(--lighter-blue);
-    --highlight-color: var(--light-blue);
+    --tungsten: rgb(40, 41, 43);
+  }
 
+  :root {
+    --text-color: var(--tungsten);
     --link-color: var(--light-blue);
-    --text-color: rgb(42, 53, 56);
+    --button-color: var(--light-blue);
+    --headline-color: var(--light-blue);
   }
 
   body {
@@ -28,9 +31,9 @@
   dt {
     color: var(--headline-color);
   }
-  header,
-  nav,
-  footer {
+  body > header,
+  body > nav,
+  body > footer {
     background-color: var(--lighter-blue);
     color: rgba(0, 0, 0, 0.9);
   }
