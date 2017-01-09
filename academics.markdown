@@ -1,7 +1,7 @@
 ---
 title: Academics at Azusa High School
 layout: default
-image: /images/photos/academics.png
+image: "/images/photos/academics.png"
 ---
 
 # Academics

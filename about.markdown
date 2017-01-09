@@ -1,7 +1,7 @@
 ---
 title: About Azusa High School
 layout: default
-image: /images/photos/campus.jpg
+image: "/images/photos/campus.jpg"
 ---
 
 # About Our School
