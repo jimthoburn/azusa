@@ -332,8 +332,7 @@
     }
   }
 
-  @media (min-width: 60em) { /* --big-screen-width */
-    .image::after {
+  .image::after {
       content: "";
       background: rgba(0, 0, 0, 0.2);
       background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
@@ -345,7 +344,6 @@
       height: 100%;
       z-index: 0;
     }
-  }
 
   .image img {
     display: block;
