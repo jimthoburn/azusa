@@ -4,6 +4,8 @@ layout: default
 image: "/images/photos/best-buddies.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Student Life
 
 *   Pep rallies for each season of sports (Fall, winter, and spring)
@@ -27,3 +29,5 @@ image: "/images/photos/best-buddies.jpg"
 *   National Honor Society
 *   California Scholarship Federation
 *   Interact Club
+
+</div>

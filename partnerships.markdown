@@ -4,6 +4,8 @@ layout: default
 image: "/images/photos/partnerships.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Partnerships
 
 ## Community Partnerships
@@ -39,3 +41,5 @@ image: "/images/photos/partnerships.jpg"
 *   Azusa Womens Club
 *   California School Employees Association The Gas Company
 *   In addition, there are several Memorial Scholarship Awards that are presented.
+
+</div>

@@ -4,6 +4,8 @@ layout: default
 image: "/images/photos/computer-lab.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Support and Wellness
 
 Bronze level award for Positive Behavior Intervention and Support (PBIS)
@@ -30,3 +32,5 @@ Bronze level award for Positive Behavior Intervention and Support (PBIS)
 *   College Speakers
 *   Military Speakers
 *   Naviance College and Career Planning software program
+
+</div>

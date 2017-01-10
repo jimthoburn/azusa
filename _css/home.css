@@ -149,18 +149,28 @@
     padding: 0 3em 3em;
     max-width: none;
   }
-    .feature {
-      position: relative;
-    }
+  .feature {
+    position: relative;
+  }
+  .feature h2 {
+    position: absolute;
+  }
+  .feature h2 svg {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  @media (max-width: 39.9em) {
     .feature h2 {
-      position: absolute;
+      font-size: inherit;
+      line-height: inherit;
     }
-    .feature .more {
-      position: absolute;
-      top: 1.5em;
-      right: 1.5em;
+  }
+  .feature .more {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
 
-    }
+  }
   @media (min-width: 60em) {
     .summaries div,
     .parents-summary,

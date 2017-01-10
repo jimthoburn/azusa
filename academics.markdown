@@ -4,6 +4,8 @@ layout: default
 image: "/images/photos/college.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Academics
 
 Azusa is a certified [International Baccalaureate® Diploma Programme](http://ibo.org/en/programmes/diploma-programme/) school
@@ -136,3 +138,5 @@ Honors English II
 ## 2015-2016 Matriculation
 
 [TODO: Add list of colleges/universities]
+
+</div>

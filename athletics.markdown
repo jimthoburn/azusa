@@ -4,6 +4,8 @@ layout: default
 image: "/images/athletics.jpg"
 ---
 
+<div class="text" markdown="1">
+
 # Athletics
 
 State CIF Champions 2017 Volley
@@ -20,3 +22,5 @@ State CIF Champions 2017 Volley
 *   Wrestling (Men / Women)
 *   Golf (Men / Women)
 *   Badminton (Men / Women)
+
+</div>

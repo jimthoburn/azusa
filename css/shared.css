@@ -176,11 +176,13 @@
     padding-top: 0.375em;
     padding-bottom: 0.375em;
     box-sizing: border-box;
+    border-width: 0;
   }
 
   dl dt + dd {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
+    border-width: 0;
   }
 
   dl dd {
@@ -217,29 +219,47 @@
   /* =List
   ----------------------------------------------- */
 
-  ul,
-  ul > li {
+  .text ul,
+  .text ul > li {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
   }
 
-  ul > li {
+  .text ul {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding-top: 0.375em;
-    padding-bottom: 0.375em;
-    padding-left: 3em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-width: 0;
+  }
+
+  .text ul ul {
+    border-bottom-width: 0;
+  }
+
+  .text ul > li {
+    padding: 0.375em 1.5em;
     box-sizing: border-box;
   }
 
-  ul > li ul {
-    margin-top: 0;
-    margin-bottom: 0;
+  /*
+  .text ul > li {
+    background-color: rgba(0, 0, 0, 0.025);
+    border-width: 0;
+  }
+
+  .text ul > li:nth-child(2n) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  */
+
+  .text ul > li ul {
+    margin-top: 0.375em;
+    margin-bottom: -0.375em;
     font-style: italic;
   }
 
-  ul > li li {
-    border-top-width: 0;
+  .text ul > li li {
+    background-color: transparent !important;
   }
 
   /* =Announcements
@@ -291,6 +311,7 @@
 
   .announcements li {
     background-color: rgba(0, 0, 0, 0.0);
+    border-width: 0;
   }
 
   .announcements li:nth-child(2n) {
@@ -1082,19 +1103,31 @@
   }
 
   .feature {
-      position: relative;
-    }
+    position: relative;
+  }
 
   .feature h2 {
-      position: absolute;
+    position: absolute;
+  }
+
+  .feature h2 svg {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  @media (max-width: 39.9em) {
+    .feature h2 {
+      font-size: inherit;
+      line-height: inherit;
     }
+  }
 
   .feature .more {
-      position: absolute;
-      top: 1.5em;
-      right: 1.5em;
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
 
-    }
+  }
 
   @media (min-width: 60em) {
     .summaries div,

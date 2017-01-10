@@ -99,33 +99,38 @@ Learn more [about our school](/about)
 
 
 <div class="summaries">
-  <div class="facilities-summary">
-    <h2>Facilities</h2>
-    <ul>
-      <li>Gym</li>
-      <li>Theater</li>
-      <li>4 computer labs</li>
-      <li>Track and field</li>
-      <li>Ceramics lab</li>
-      <li>Engineering lab</li>
-      <li>Band room</li>
-      <li>Choir room</li>
-    </ul>
+  <div class="facilities-summary text" markdown="1">
+## Facilities
+
+*   Gym
+*   Theater
+*   4 computer labs
+*   Track and field
+*   Ceramics lab
+*   Engineering lab
+*   Band room
+*   Choir room
   </div>
 
-  <div class="parents-summary">
-    <h2>Parents &amp; students</h2>
-    <p>Learn about attendance, handbooks, dress code and more on the <a href="http://ahs-ausd-ca.schoolloop.com/parentwelcome">parents &amp; students</a> page.</p>
+  <div class="parents-summary text" markdown="1">
+## Parents & students
+
+Learn about attendance, handbooks, dress code and more on the [parents & students](http://ahs-ausd-ca.schoolloop.com/parentwelcome) page.
   </div>
 
-  <div class="calendar-summary">
-    <h2>Calendar</h2>
-    <dl class="calendar">
-      <dt>January 9</dt><dd>Planning Day<br /><em>No School</em></dd>
-      <dt>January 10</dt><dd>Teacher PLC Day<br /><em>No School</em></dd>
-      <dt>January 11</dt><dd>Students Return from Break </dd>
-    </dl>
-    <p><a href="http://ahs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510104&month_id=0&include_subgroups=true&return_url=1483559579491">See full calendar</a></p>
+  <div class="calendar-summary text" markdown="1">
+## Calendar
+
+January 9
+: Planning Day<br />_No School_
+
+January 10
+: Teacher PLC Day<br />_No School_
+
+January 11
+: Students Return from Break
+
+[See full calendar](http://ahs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510104&month_id=0&include_subgroups=true&return_url=1483559579491)
   </div>
 </div>
 
@@ -136,14 +141,14 @@ Learn more [about our school](/about)
 </header>
 
 <ul>
-<li markdown="1">
+<li class="text" markdown="1">
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
 </li>
-<li markdown="1">
+<li class="text" markdown="1">
 
 ### Math tutoring is now available
 
