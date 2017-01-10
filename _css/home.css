@@ -33,7 +33,7 @@
     padding: 3em 1.5em;
     background-color: rgb(222, 222, 222); /* @silver */
   }
-  @media (min-width: 40em) {
+  @media (min-width: 140em) {
     .summaries {
       display: flex;
       flex-wrap: wrap;
@@ -42,7 +42,7 @@
       flex-grow: 1;
     }
   }
-  @media (min-width: 80em) {
+  @media (min-width: 180em) {
     .summaries {
       flex-wrap: nowrap;
     }

@@ -896,7 +896,7 @@
     background-color: rgb(222, 222, 222); /* @silver */
   }
 
-  @media (min-width: 40em) {
+  @media (min-width: 140em) {
     .summaries {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -911,7 +911,7 @@
     }
   }
 
-  @media (min-width: 80em) {
+  @media (min-width: 180em) {
     .summaries {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
