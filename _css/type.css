@@ -58,7 +58,7 @@
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
-  header h2 {
+  body > header h2 {
     text-transform: uppercase;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
@@ -79,24 +79,20 @@
   }
 
   h2 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
-  /*
-  h2 {
     font-size: 2em;
     line-height: 1.125;
     margin-top   : calc(var(--line-height) / 2em);
     margin-bottom: calc(var(--line-height) / 2em / 2);
   }
 
-  @media (min-width: 60em) { --big-screen-width
+  @media (min-width: 60em) { /* --big-screen-width */
     h2 {
-      margin-top: calc(var(--line-height) / 2em * 2); Twice the usual margin
+      margin-top: calc(var(--line-height) / 2em * 4); /* Twice the usual margin */
+    }
+    h1 + h2 {
+      margin-top: calc(var(--line-height) / 2em);
     }
   }
-  */
 
   /*
   h3 {
