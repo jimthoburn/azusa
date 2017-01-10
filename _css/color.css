@@ -32,11 +32,6 @@
   dt {
     color: var(--headline-color);
   }
-  @media (min-width: 135em) {
-    body.has-image > header {
-      color: white;
-    }
-  }
   body > nav,
   body > footer {
     background-color: var(--light-blue);
