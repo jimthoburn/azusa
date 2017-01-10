@@ -7,8 +7,6 @@
     margin-left: 0;
     padding-left: 0;
   }
-  ul {
-  }
   ul > li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
@@ -16,6 +14,13 @@
     padding-left: 3em;
     box-sizing: border-box;
   }
-
+  ul > li ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+  }
+  ul > li li {
+    border-top-width: 0;
+  }
 
 /*# sourceMappingURL=list.css.map */
