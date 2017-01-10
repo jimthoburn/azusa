@@ -149,7 +149,6 @@
     padding: 0 3em 3em;
     max-width: none;
   }
-  @media (min-width: 60em) {
     .feature {
       position: relative;
     }
@@ -162,6 +161,7 @@
       right: 1.5em;
 
     }
+  @media (min-width: 60em) {
     .summaries div,
     .parents-summary,
     .news-summary-home {
@@ -169,12 +169,12 @@
        padding-right: 3em;
     }
   }
-  .home main .feature {
+  .feature {
     position: relative;
     background: black;
     color: white;
   }
-  .home main .feature::before {
+  .feature::before {
     content: "";
     background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0));
     position: absolute;
@@ -183,12 +183,12 @@
     width: 100%;
     height: 100%;
   }
-  .home main .feature img {
+  .feature img {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     object-fit: cover;
   }
-  .home main .feature img + p {
+  .feature img + p {
     position: absolute;
     z-index: 1;
     bottom: 0;
@@ -196,12 +196,13 @@
     padding: 1.5em;
   }
   @media (min-width: 60em) {
-    .home main .feature img + p {
+    .feature img + p {
       padding: 3em;
     }
   }
-  .home main .feature a {
+  .feature a {
     color: inherit;
+    display: block;
   }
   .news-summary,
   .news-summary li {
@@ -209,7 +210,7 @@
     margin-left: 0;
     padding-left: 0;
   }
-  .home main .feature {
+  .feature {
     margin-left: calc(var(--line-height) * -1);
     margin-right: calc(var(--line-height) * -1);
   }
@@ -220,7 +221,7 @@
     max-width: none;
   }
   @media (min-width: 60em) { /* --big-screen-width */
-    .home main .feature {
+    .feature {
       margin-left: calc(var(--line-height) * -2);
       margin-right: calc(var(--line-height) * -2);
     }

@@ -2,7 +2,7 @@
 title: Azusa High School, Every student college and career ready
 classname: home
 layout: default
-standard: false
+has_wide_content: true
 image: "/images/photos/college.jpg"
 ---
 

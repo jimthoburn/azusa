@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:100,300,400,700" />
   <link rel="stylesheet" href="/css/shared.css" />
 </head>
-<body{% if page.classname %} class="{{ page.classname }}"{% endif %}>
+<body class="{% if page.image %} has-image{% endif %}">
   <header>
     <h2>
       <a href="/">
@@ -22,9 +22,11 @@
     <p class="nav-link"><a href="#menu">Menu</a></p>
   </header>
 
-  {% if page.image %}<img class="primary" src="{{ page.image }}" alt="" />{% endif %}
+  {% if page.image %}
+  <div class="image {% if page.image_focus == 'top' %} image-focus-top {% elsif page.image_focus == 'bottom' %} image-focus-bottom {% endif %}"><img src="{{ page.image }}" alt="" /></div>
+  {% endif %}
 
-  <main{% if page.standard != false %} class="standard"{% endif %}>
+  <main{% if page.has_wide_content %} class="has-wide-content"{% endif %}>
     {{ content }}
   </main>
 
