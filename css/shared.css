@@ -29,8 +29,13 @@
 
   body > nav,
   body > footer {
-    background-color: rgb(114, 211, 255);
+    background-color: rgb(57, 164, 208);
     color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  body > nav button {
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   /* =Type

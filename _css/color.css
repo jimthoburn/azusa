@@ -38,6 +38,10 @@
   }
   body > nav,
   body > footer {
-    background-color: var(--lighter-blue);
+    background-color: var(--light-blue);
     color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+  }
+  body > nav button {
+    background-color: rgba(0, 0, 0, 0.3);
   }
