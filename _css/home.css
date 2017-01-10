@@ -217,7 +217,7 @@
   .news-summary:last-child {
     margin-left: calc(var(--line-height) * -1);
     margin-right: calc(var(--line-height) * -1);
-    margin-bottom: calc(var(--line-height) * -1);
+    margin-bottom: calc(var(--line-height) * -2);
     max-width: none;
   }
   @media (min-width: 60em) { /* --big-screen-width */
@@ -228,7 +228,7 @@
     .news-summary:last-child {
       margin-left: calc(var(--line-height) * -2);
       margin-right: calc(var(--line-height) * -2);
-      margin-bottom: calc(var(--line-height) * -2);
+      margin-bottom: calc(var(--line-height) * -4);
     }
   }
 

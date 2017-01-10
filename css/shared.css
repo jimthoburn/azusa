@@ -83,13 +83,13 @@
     font-weight: inherit;
   }
 
-  h1, h2 {
+  h1, body > header h2, body > footer h2 {
     text-transform: uppercase;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
   }
 
-  h1 strong, h2 strong {
+  h1 strong, , body > header h2 strong, body > footer h2 strong {
     font-weight: 400;
   }
 
@@ -129,19 +129,24 @@
     margin-bottom: 0.5em;
   }
 
-  h3, h4 {
+  h3 {
     font-size: 1.25em;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
   }
 
-  h5 {
+  h3 + h4 {
+    margin-top: 0;
+  }
+
+  h4, h5 {
     font-size: inherit;
     font-weight: bold;
   }
 
-  h6 {
+  h6, h4, h5 {
     font-size: inherit;
+    font-weight: inherit;
     font-style: italic;
   }
 
@@ -156,49 +161,78 @@
   /* =Calendar
   ----------------------------------------------- */
 
-  dl.calendar:after {
+  dl:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  dl.calendar dt {
+  dl dt {
     clear: both;
+    width: 33.333%;
     float: left;
-    width: 25%;
     text-align: right;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
     padding-bottom: 0.375em;
     box-sizing: border-box;
-    color: var(--highlight-color);
   }
 
-  dl.calendar dt + dd {
+  dl dt + dd {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
   }
 
-  dl.calendar dd {
+  dl dd {
     padding-left: 1.5em;
     padding-bottom: 0.375em;
-    margin-left: 25%;
-    width: 75%;
+    margin-left: 33.333%;
+    width: 66.666%;
     box-sizing: border-box;
     color: black;
   }
 
-  dl.calendar dd em {
+  dl dd em {
     opacity: 0.5;
   }
 
-  dl.calendar dd span {
+  dl dd span {
     display: inline-block;
     min-width: 3em;
   }
 
-  dl.calendar dd span:first-child {
+  dl dd span:first-child {
     text-align: right;
+  }
+
+  dl.calendar dt {
+    width: 25%;
+  }
+
+  dl.calendar dd {
+    margin-left: 25%;
+    width: 75%;
+  }
+
+  /* =List
+  ----------------------------------------------- */
+
+  ul,
+  ul > li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  ul {
+  }
+
+  ul > li {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.375em;
+    padding-bottom: 0.375em;
+    padding-left: 3em;
+    box-sizing: border-box;
   }
 
   /* =Announcements
@@ -612,6 +646,7 @@
   }
 
   body > nav h2 {
+    margin-top: 0;
     font-size: inherit;
     max-width: none;
     font-weight: inherit;
@@ -640,13 +675,13 @@
     text-align: left;
   }
 
-  body > nav > ul > li li a {
+  body > nav a {
     text-decoration: none;
   }
 
-  body > nav > ul > li li a:hover,
-  body > nav > ul > li li a:active,
-  body > nav > ul > li li a:focus {
+  body > nav a:hover,
+  body > nav a:active,
+  body > nav a:focus {
     text-decoration: underline;
   }
 
@@ -1121,7 +1156,7 @@
   .news-summary:last-child {
     margin-left: -1.5em;
     margin-right: -1.5em;
-    margin-bottom: -1.5em;
+    margin-bottom: -3em;
     max-width: none;
   }
 
@@ -1133,7 +1168,7 @@
     .news-summary:last-child {
       margin-left: -3em;
       margin-right: -3em;
-      margin-bottom: -3em;
+      margin-bottom: -6em;
     }
   }
 

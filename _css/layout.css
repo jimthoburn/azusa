@@ -308,6 +308,7 @@
     vertical-align: top;
   }
   body > nav h2 {
+    margin-top: 0;
     font-size: inherit;
     max-width: none;
     font-weight: inherit;
@@ -328,12 +329,12 @@
   body > nav li {
     text-align: left;
   }
-  body > nav > ul > li li a {
+  body > nav a {
     text-decoration: none;
   }
-  body > nav > ul > li li a:hover,
-  body > nav > ul > li li a:active,
-  body > nav > ul > li li a:focus {
+  body > nav a:hover,
+  body > nav a:active,
+  body > nav a:focus {
     text-decoration: underline;
   }
 
