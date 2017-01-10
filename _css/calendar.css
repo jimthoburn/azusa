@@ -15,12 +15,10 @@
     padding-top: 0.375em;
     padding-bottom: 0.375em;
     box-sizing: border-box;
-    border-width: 0;
   }
   dl dt + dd {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
-    border-width: 0;
   }
   dl dd {
     padding-left: 1.5em;
