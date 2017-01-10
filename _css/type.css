@@ -53,17 +53,9 @@
     font-weight: inherit;
   }
 
-  h1 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
-  body > header h2 {
-    text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  }
-
   h1, h2 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
   }
 
@@ -78,35 +70,40 @@
     margin-bottom: calc(var(--line-height) / 2.5em / 2);
   }
 
+  /*
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.25;
+    margin-top   : calc(var(--line-height) / 1.25em * 1.5);
+    margin-bottom: calc(var(--line-height) / 1.25em / 2);
+  }
+
+  h3 {
+    font-weight: inherit;
+    font-style: italic;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  */
+
   h2 {
     font-size: 2em;
     line-height: 1.125;
-    margin-top   : calc(var(--line-height) / 2em);
+    margin-top   : calc(var(--line-height) / 2em * 2);
     margin-bottom: calc(var(--line-height) / 2em / 2);
   }
 
-  @media (min-width: 60em) { /* --big-screen-width */
-    h2 {
-      margin-top: calc(var(--line-height) / 2em * 4); /* Twice the usual margin */
-    }
-    h1 + h2 {
-      margin-top: calc(var(--line-height) / 2em);
-    }
-  }
-
-  /*
   h3 {
     font-size: 1.5em;
     margin-top   : calc(var(--line-height) / 1.5em);
     margin-bottom: calc(var(--line-height) / 1.5em / 2);
   }
 
-  h4 {
+  h3, h4 {
     font-size: 1.25em;
     margin-top   : calc(var(--line-height) / 1.25em);
     margin-bottom: calc(var(--line-height) / 1.25em / 2);
   }
-  */
 
   h5 {
     font-size: inherit;

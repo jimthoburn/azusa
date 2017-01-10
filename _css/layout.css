@@ -2,17 +2,29 @@
 
   /* =Layout
   ----------------------------------------------- */
-  body > header, body > footer, body > nav, body > main {
+  body > header,
+  body > footer,
+  body > nav,
+  body > main {
     padding: var(--line-height);
+  }
+  body > main {
+    padding-bottom: calc(var(--line-height) * 2); /* Twice the usual padding */
   }
 
   @media (min-width: 60em) { /* --big-screen-width */
-    body > header, body > footer, body > nav, body > main {
+    body > header,
+    body > footer,
+    body > nav,
+    body > main {
       padding: calc(var(--line-height) * 2);
+    }
+    body > main {
+      padding-bottom: calc(var(--line-height) * 4); /* Twice the usual padding */
     }
   }
 
-  @media (min-width: 35em) { /* --header-over-image-width */
+  @media (min-width: 135em) { /* --header-over-image-width */
     body.has-image > header {
       position: absolute;
       width: 100%;
@@ -39,7 +51,7 @@
     position: relative;
     z-index: -1;
   }
-  @media (min-width: 35em) { /* --header-over-image-width */
+  @media (min-width: 135em) { /* --header-over-image-width */
     .image::before {
       content: "";
       background: rgba(0, 0, 0, 0.2);
@@ -55,7 +67,7 @@
     .image::after {
       content: "";
       background: rgba(0, 0, 0, 0.2);
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
       position: absolute;
       top: 0;
       left: 0;
@@ -85,7 +97,7 @@
     }
   }
 
-  @media (min-width: 60em) { /* --big-screen-width */
+  @media (min-width: 160em) { /* --big-screen-width */
     .image + main h1 {
       position: absolute;
       /*
@@ -147,13 +159,14 @@
     display: block;
     height: calc(var(--line-height) * 3);
     width: auto;
+    margin-bottom: calc(var(--line-height) / 2);
   }
   body > header h2 + p {
     margin-top: 0.25em;
     line-height: 1;
     margin-bottom: 0;
   }
-  @media (min-width: 35em) {
+  @media (min-width: 135em) {
     body > header h2 img {
       margin-bottom: 0.75em;
     }
@@ -172,7 +185,7 @@
       position: absolute;
     }
   }
-  @media (min-width: 44em) {
+  @media (min-width: 160em) {
     body > header h2,
     body > header h2 + p {
       display: inline-block;
@@ -196,13 +209,13 @@
   body > header .nav-link {
     margin: 0;
     position: absolute;
-      top: calc(var(--line-height) * 1.5);
-      right: calc(var(--line-height) * 1.5);
+    top: calc(var(--line-height) * 1);
+    right: calc(var(--line-height) * 1);
   }
   @media (min-width: 60em) {
     body > header .nav-link {
-      top: calc(var(--line-height) * 1.5);
-      right: calc(var(--line-height) * 1.5);
+      top: calc(var(--line-height) * 2);
+      right: calc(var(--line-height) * 2);
     }
   }
   body > nav form {
@@ -252,6 +265,7 @@
     cursor: pointer;
     transition: background-color 0.2s;
     box-sizing: border-box;
+    display: inline-block;
   }
   body > header .nav-link a:hover,
   body > header .nav-link a:active,

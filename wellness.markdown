@@ -4,7 +4,7 @@ layout: default
 image: "/images/photos/computer-lab.jpg"
 ---
 
-# Support and Wellness Programs
+# Support and Wellness
 
 Bronze level award for Positive Behavior Intervention and Support (PBIS)
 

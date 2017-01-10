@@ -8,7 +8,9 @@ image: "/images/photos/college.jpg"
 
 Azusa is a certified [International Baccalaureate® Diploma Programme](http://ibo.org/en/programmes/diploma-programme/) school
 
-## 9th Grade
+## Courses
+
+### 9th Grade
 
 *   English
 *   Math - Integrated I, Integrated II. Earth Science
@@ -18,39 +20,39 @@ Azusa is a certified [International Baccalaureate® Diploma Programme](http://ib
 *   French
 *   American Sign Language
 
-## 10th Grade
+### 10th Grade
 
 *   English
 *   World History
 *   Math Integrated II, Integrated III Biology
 *   Chemistry
 
-## 11th Grade
+### 11th Grade
 
 *   English
 *   U.S. History Math Chemistry Physics
 
-## 12th Grade
+### 12th Grade
 
 *   English
 *   Expository Reading and Writing Economics
 *   Government
 *   We encourage students to continue in challenging courses in math and science
 
-## World Language Courses
+### World Language Courses
 
 *   Spanish
 *   French
 *   American Sign Language
 
-## English Language Development
+### English Language Development
 
 Courses to Support our English Learners:
 
 *   SDAIE English
 *   ELD
 
-## Math Support
+### Math Support
 
 Math elective course to support our struggling students
 

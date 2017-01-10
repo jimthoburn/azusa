@@ -25,13 +25,14 @@
     color: var(--link-color);
   }
 
+  main h1,
   main h2 {
     color: var(--headline-color);
   }
   dt {
     color: var(--headline-color);
   }
-  @media (min-width: 35em) {
+  @media (min-width: 135em) {
     body.has-image > header {
       color: white;
     }
