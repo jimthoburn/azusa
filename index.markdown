@@ -115,7 +115,7 @@ Learn more [about our school](/about)
   <div class="parents-summary text" markdown="1">
 ## Parents & students
 
-Learn about attendance, handbooks, dress code and more on the [parents & students](http://ahs-ausd-ca.schoolloop.com/parentwelcome) page.
+Learn about attendance, handbooks, dress code and more on the [parents & students](http://info.azusahighschool.jimthoburn.com/parentwelcome) page.
   </div>
 
   <div class="calendar-summary text" markdown="1">
@@ -130,7 +130,7 @@ January 10
 January 11
 : Students Return from Break
 
-[See full calendar](http://ahs-ausd-ca.schoolloop.com/cms/month?d=x&group_id=1301752510104&month_id=0&include_subgroups=true&return_url=1483559579491)
+[See full calendar](http://info.azusahighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510104)
   </div>
 </div>
 
