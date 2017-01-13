@@ -1,6 +1,6 @@
 ---
-layout: site-map
 title: Website Prototype, Azusa High School
+layout: site-map
 ---
 
 # Azusa High School
