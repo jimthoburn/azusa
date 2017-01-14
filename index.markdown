@@ -193,7 +193,7 @@ Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of 
 <ul class="news-summary">
   <li>
     <a href="https://www.instagram.com">
-      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM5MjQ1NDk5NTQuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD05OSZiYXNpc1dpZHRoPTEwMDA=" alt="Building Cardboard Chairs" />
+      <img src="https://cdn.schoolloop.com/uimgcdn/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM5MjQ1NDk5NTQuanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD05OSZiYXNpc1dpZHRoPTEwMDA=" alt="" />
       <span>2016 Homecoming</span>
     </a>
   </li>
