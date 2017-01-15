@@ -17,7 +17,8 @@
   }
 
   body {
-    background-color: rgba(57, 164, 208, 0.025); /* --light-blue */
+    background-color: white;
+    background-color: rgba(57, 164, 208, 0.01); /* --light-blue */
     color: var(--text-color);
   }
 

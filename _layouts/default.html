@@ -23,7 +23,9 @@
   </header>
 
   {% if page.image %}
-  <div class="image {% if page.image_focus == 'top' %} image-focus-top {% elsif page.image_focus == 'bottom' %} image-focus-bottom {% endif %}"><img src="{{ page.image }}" alt="" /></div>
+  <div class="image {% if page.image_focus == 'top' %} image-focus-top {% elsif page.image_focus == 'bottom' %} image-focus-bottom {% endif %}">
+  	<img src="{{ page.image }}" alt="" />
+  </div>
   {% endif %}
 
   <main{% if page.has_wide_content %} class="has-wide-content"{% endif %}>
