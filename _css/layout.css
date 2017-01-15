@@ -128,10 +128,10 @@
           min-height: 33vmax;
         }
       }
-      .image-focus-top img {
+      body.image-focus-top .image img {
         object-position: top;
       }
-      .image-focus-bottom img {
+      body.image-focus-bottom .image img {
         object-position: bottom;
       }
   }
@@ -217,7 +217,7 @@
         min-height: 33vmax;
       }
     }
-    body.has-image > header > a {
+    body.has-image:not(.image-focus-bottom) > header > a {
       position: absolute;
       bottom: 0.75em;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
