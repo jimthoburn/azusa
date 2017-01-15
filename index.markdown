@@ -141,14 +141,14 @@ January 11
 </header>
 
 <ul>
-<li class="text" markdown="1">
+<li markdown="1">
 
 ### Winter break is from December 23, 2016 - January 10, 2017.
 
 Students return to school on January 11th.
 
 </li>
-<li class="text" markdown="1">
+<li markdown="1">
 
 ### Math tutoring is now available
 
