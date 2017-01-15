@@ -28,6 +28,23 @@
   </div>
   {% endif %}
 
+  {% if page.images %}
+  <script>
+  (function() {
+    var images = [
+      {% for image in page.images %}
+        '{{ image }}'{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+    var min = 0;
+    var max = images.length - 1;
+    var random = Math.floor(Math.random() * (max - min + 1) + min);
+    var image = document.querySelector('.image img');
+    image.src = images[random];
+  })();
+  </script>
+  {% endif %}
+
   <main{% if page.has_wide_content %} class="has-wide-content"{% endif %}>
     {{ content }}
   </main>
