@@ -1,5 +1,5 @@
 ---
-title: Track and Field at Azusa High School
+title: Cross Country at Azusa High School
 layout: default
 image: "/images/photos/track.png"
 image_focus: bottom
