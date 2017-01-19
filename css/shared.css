@@ -4,9 +4,20 @@
   /* =Color
   ----------------------------------------------- */
 
+  :root {
+
+    /* Blues from brochure */
+
+    /* Blue from the logo */
+
+    /* ? */
+
+    /* Blue from temples.jpg */
+  }
+
   body {
     background-color: white;
-    background-color: rgba(57, 164, 208, 0.01); /* --light-blue */
+    background-color: rgba(17, 167, 229, 0.01); /* --light-blue */
     color: rgb(40, 41, 43);
   }
 
@@ -33,6 +44,44 @@
   body > nav button {
     background-color: rgba(0, 0, 0, 0.3);
   }
+
+  body > footer {
+    /*
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 12em, rgba(255, 255, 255, 0));
+    background-image: url(/images/texture-bottom.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 12em !important;
+    border-bottom: 3em solid rgb(51, 190, 242);
+    border-bottom: 3em solid rgba(0, 0, 0, 0.1);
+    border-bottom: 3em solid rgba(255, 255, 255, 0.1);
+    border-bottom: 3em solid rgba(255, 255, 255, 0.25);
+    */
+  }
+
+  body > main ~ .image img {
+    height: auto;
+    width: 100%;
+  }
+
+  /*
+  nav {
+    background-image: url(/images/texture.png);
+    background-size: auto 6em;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-top: 7.5em !important;
+  }
+  footer {
+    background-image: url(/images/texture.png), url(/images/texture.png);
+    background-size: auto 6em;
+    background-repeat: repeat-x;
+    background-position: top, bottom;
+    padding-top: 9em !important;
+    padding-bottom: 7.5em !important;
+  }
+  */
 
   /* =Type
   ----------------------------------------------- */
@@ -380,6 +429,17 @@
     margin-top: 0;
   }
 
+  /*
+  @supports(transform: translateY(-100%)) {
+    body.has-image main > h1:first-child {
+      position: absolute;
+      transform: translateY(-100%);
+      margin-top: -3rem;
+      left: 3rem;
+    }
+  }
+  */
+
   @media (min-width: 66em) {
     /*
     main:not(.has-wide-content) > h1:first-child {
@@ -404,8 +464,8 @@
   .image::before {
     content: "";
     background: rgba(0, 0, 0, 0.2);
-    background: -webkit-linear-gradient(285deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-    background: linear-gradient(165deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(285deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(165deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -416,16 +476,16 @@
 
   @supports((-o-object-fit: cover) or (object-fit: cover)) {
     .image::before {
-      background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-      background: linear-gradient(15deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: -webkit-linear-gradient(75deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+      background: linear-gradient(15deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     }
   }
 
   .image::after {
     content: "";
     background: rgba(0, 0, 0, 0.05);
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -458,7 +518,7 @@
       @media (min-aspect-ratio: 1/1) {
         .image img {
           height: 70vh;
-          min-height: 33vmax;
+          min-height: 30vmax;
         }
       }
       body.image-focus-top .image img {
@@ -556,7 +616,8 @@
     @media (min-aspect-ratio: 1/1) {
       body.has-image > header {
         height: 70vh;
-        min-height: 33vmax;
+        min-height: 9em;
+        min-height: 30vmax;
       }
     }
     body.has-image:not(.image-focus-bottom) > header > a {
@@ -1296,6 +1357,8 @@
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
     }
     .news-summary li {
       -webkit-box-flex: 1;

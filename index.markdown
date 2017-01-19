@@ -155,6 +155,32 @@ Students return to school on January 11th.
 Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of this opportunity!
 
 </li>
+<!--
+<li markdown="1">
+
+### Congratulations, Brad Kear — 2015–2016 Teacher of the Year!
+
+<img alt="" src="http://ahs-ausd-ca.schoolloop.com/uimg/image/1301752510104/1331967107019/1413182913155.jpg?1462815786781" />
+
+</li>
+<li markdown="1">
+
+### Summer Chandler - 2016 Classified Employee of the Year
+
+<img alt="" src="http://ahs-ausd-ca.schoolloop.com/uimg/file/1471331230544/6029079328627407908.jpg?1480630558846" />
+
+</li>
+<li markdown="1">
+
+### 2017 Seniors
+
+Call J. Garcia Photo Studio for senior portrait appointments
+
+**626-969-8488**
+
+</li>
+-->
+
 </ul>
 </section>
 
@@ -177,6 +203,7 @@ Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of 
     <p>On November 9, forty International Students from Japan visited Azusa High School. They were able to experience how the American educational system in implemented. It was a great day for them to learn about our culture and it was even more exciting learning about their culture and educational system!</p>
   </a>
 
+  <!--
   <svg class="heart icon" viewBox="0 0 24 24" width="24" height="24">
     <path fill="white" d="M17.631 5.93c-0.394-0.913-1.185-1.682-2.281-2.158-0.968-0.422-2.012-0.471-2.96-0.214s-1.801 0.956-2.388 1.767c-0.588-0.811-1.44-1.511-2.389-1.767-0.949-0.258-1.991-0.207-2.96 0.214-1.096 0.476-1.885 1.243-2.281 2.158-0.394 0.912-0.397 1.974 0.103 3.027 1.062 2.257 7.494 7.55 7.529 7.64 0.033-0.090 6.466-5.383 7.53-7.64 0.498-1.053 0.496-2.115 0.101-3.027z"></path>
   </svg>
@@ -188,6 +215,7 @@ Monday through Thursday from 3:00 - 4:00 p.m. in the Library. Take advantage of 
       c-0.1-0.1-0.1-0.3-0.2-0.5s-0.2-0.4-0.2-0.7c0.9-0.5,1.6-1.2,2.1-1.9s0.8-1.6,0.8-2.4c0-0.8-0.2-1.5-0.6-2.2s-1-1.3-1.7-1.8
       S14,4.1,13,3.8s-2-0.4-3-0.4c-1.4,0-2.7,0.2-3.9,0.7S4,5.2,3.3,6.1S2.2,7.9,2.2,8.9z"></path>
   </svg>
+  -->
 </div>
 
 <ul class="news-summary">

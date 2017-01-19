@@ -3,8 +3,20 @@
   /* =Color
   ----------------------------------------------- */
   :root {
+
+    /* Blues from brochure */
+    --light-blue: rgb(0, 88, 142);
+    --light-blue: rgb(0, 174, 239);
+    --light-blue: rgb(51, 190, 242);
+
+    /* Blue from the logo */
+    --light-blue: rgb(17, 167, 229);
+
+    /* ? */
     --light-blue: rgb(57, 164, 208);
-    --lighter-blue: rgb(114, 211, 255);
+
+    /* Blue from temples.jpg */
+    --sky-blue: rgb(34, 167, 254);
 
     --tungsten: rgb(40, 41, 43);
   }
@@ -18,7 +30,7 @@
 
   body {
     background-color: white;
-    background-color: rgba(57, 164, 208, 0.01); /* --light-blue */
+    background-color: rgba(17, 167, 229, 0.01); /* --light-blue */
     color: var(--text-color);
   }
 
@@ -42,3 +54,40 @@
   body > nav button {
     background-color: rgba(0, 0, 0, 0.3);
   }
+  body > footer {
+    /*
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 12em, rgba(255, 255, 255, 0));
+    background-image: url(/images/texture-bottom.png);
+    background-size: 100% auto;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 12em !important;
+    border-bottom: 3em solid rgb(51, 190, 242);
+    border-bottom: 3em solid rgba(0, 0, 0, 0.1);
+    border-bottom: 3em solid rgba(255, 255, 255, 0.1);
+    border-bottom: 3em solid rgba(255, 255, 255, 0.25);
+    */
+  }
+
+  body > main ~ .image img {
+    height: auto;
+    width: 100%;
+  }
+
+  /*
+  nav {
+    background-image: url(/images/texture.png);
+    background-size: auto 6em;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-top: 7.5em !important;
+  }
+  footer {
+    background-image: url(/images/texture.png), url(/images/texture.png);
+    background-size: auto 6em;
+    background-repeat: repeat-x;
+    background-position: top, bottom;
+    padding-top: 9em !important;
+    padding-bottom: 7.5em !important;
+  }
+  */

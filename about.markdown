@@ -14,3 +14,7 @@ At Azusa High School, we are the home of the Aztecs. We have longstanding tradit
 ## Message from Our Principal
 
 I am honored and privileged to serve as the Principal of Azusa High School. Azusa High School has amazing programs and pathways such as AP and Honors, International Baccalaureate Diploma Program, AVID, Engineering, Business, Visual and Performing Arts, Fashion and Interior Design, and JROTC just to name a few. At Azusa High School, we have an abundance of opportunities for students to get involved in co-curricular and extra-curricular activities including our band and pageantry, Aztec Singers, athletic programs, Leader Academy, and theater productions. The well-rounded educational experiences we offer will prepare students to be successful, well-rounded citizens and provide them with experiences that will shape their future endeavors. I sincerely believe that all students can achieve at high levels and I want to ensure that they have the opportunity to do so at Azusa High School so that they are prepared for college and career.
+
+## 2016 Graduation was Amazing
+
+<iframe src="https://drive.google.com/a/azusa.org/file/d/0B8uKDks0PtIVb2F6cERuR2FRMkU/preview" width="460" height="320"></iframe>

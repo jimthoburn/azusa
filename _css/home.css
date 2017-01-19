@@ -251,6 +251,7 @@
   @media (min-width: 60em) { /* --big-screen-width */
     .news-summary {
       display: flex;
+      flex-wrap: wrap;
     }
     .news-summary li {
       flex-grow: 1;
