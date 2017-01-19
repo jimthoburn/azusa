@@ -79,13 +79,17 @@ main h1 + h2 {
 
 # Volleyball
 
-## Head Coach, Varsity
+## Coaches
 
 <img src="http://ahs-ausd-ca.schoolloop.com/uimg/image/1330874821019/1331967107018/1332658133844_wnp75.jpg" style="border-radius: 50%; width: 3em; height: 3em; object-fit: cover; float: left;" alt="" />
 
-<p style="margin-left: 4em; margin-bottom: 0;"><em>Tim Bazyouros</em></p>
+<p style="margin-left: 4em; margin-bottom: 0;">Tim Bazyouros</p>
 
-<p style="margin-left: 4em; margin-top: 0;"><small style="opacity: 0.5">Head Coach since 2010</small></p>
+<p style="font-style: italic; margin-left: 4em; margin-top: 0;"><small>Varsity Head Coach, since 2010</small></p>
+
+## State CIF Champions 2017
+
+Azusa’s volleyball team is going to [the championship game](http://www.cifstate.org/sports/girls_volleyball/index)!
 
 ## Practice 
 

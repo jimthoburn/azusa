@@ -79,26 +79,24 @@ main h1 + h2 {
 
 # Cross Country
 
-## Head Coach, Varsity, Boys
+## Coaches
 
 <img src="http://ahs-ausd-ca.schoolloop.com/uimg/image/1332658126158/1331967107018/1332658133772_wnp75.jpg" style="border-radius: 50%; width: 3em; height: 3em; object-fit: cover; float: left;" alt="" />
 
-<p style="margin-left: 4em; margin-bottom: 0;"><em>Patricia Dorsey</em></p>
+<p style="margin-left: 4em; margin-bottom: 0;">Patricia Dorsey</p>
 
-<p style="margin-left: 4em; margin-top: 0; margin-bottom: 0;"><small style="opacity: 0.5">Head Coach since 1997</small></p>
-<p style="margin-left: 4em; margin-top: 0;"><small style="opacity: 0.5">5 League Championships</small></p>
-
-## Head Coach, Varsity, Girls
+<p style="font-style: italic; margin-left: 4em; line-height: 1; margin-top: 0; margin-bottom: 0;"><small>Boys Varsity Head Coach, Since 1997</small></p>
+<p style="font-style: italic; margin-left: 4em; line-height: 1; margin-top: 0;"><small style="opacity: 0.5">5 League Championships</small></p>
 
 <img src="http://ahs-ausd-ca.schoolloop.com/uimg/file/1471331230544/2388808712693711428.jpg?1481648152318" style="border-radius: 50%; width: 3em; height: 3em; object-fit: cover; float: left;" alt="" />
 
-<p style="margin-left: 4em; margin-bottom: 0;"><em>Henry Granados</em></p>
+<p style="margin-left: 4em; margin-bottom: 0;">Henry Granados</p>
 
-<p style="margin-left: 4em; margin-top: 0;"><small style="opacity: 0.5">Head Coach since 2016</small></p>
+<p style="font-style: italic; margin-left: 4em; line-height: 1; margin-top: 0; margin-bottom: 0;"><small>Girls Varsity Head Coach, 2016-2017</small></p>
 
-## Varsity Cross Country Team, 2016-2017 
+## Montview League Champions
 
-Montview League Champions!
+### Varsity Cross Country Team, 2016-2017 
 
 Ms. Dorsey's 6th Championship and SFC Granados’ 1st Championship!
 
