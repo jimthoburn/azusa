@@ -26,7 +26,7 @@ Baseball
 : [Baseball](http://info.azusahighschool.jimthoburn.com/baseball)
 
 Cross Country
-: [Cross Country](http://info.azusahighschool.jimthoburn.com/crosscountry)
+: [Cross Country](/crosscountry/)
 
 Football
 : [Football](http://info.azusahighschool.jimthoburn.com/football)
