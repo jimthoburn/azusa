@@ -87,7 +87,11 @@
   ----------------------------------------------- */
 
   body {
+    /*
     font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font: 100%/1.5 "Poly", "Vollkorn", "Source Sans Pro", "Open Sans", "Droid Serif", "Libre Baskerville", "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    */
+    font: 100%/1.5 "Poly", Georgia, serif;
     margin: 0;
     padding: 0;
   }
@@ -131,13 +135,24 @@
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5em;
     font-weight: inherit;
+    /*
+    font-family: "Cinzel", "Vollkorn", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Poly", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    */
   }
 
   h1,
   body > header h2,
   body > footer h2 {
+    /*
+    font-family: "Cinzel", "Vollkorn", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Poly", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    */
+    text-transform: uppercase;
     font-weight: 300;
   }
 
@@ -145,6 +160,27 @@
   body > header h2 strong,
   body > footer h2 strong {
     font-weight: 400;
+  }
+
+  @media (min-width: 45em), (min-height: 45em) {
+    main h1 {
+      font-size: 5vmax;
+    }
+  }
+
+  h1 .lowercase {
+    /*
+    font-family: "Vollkorn", "Roboto", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Cinzel", "Roboto", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    */
+    text-transform: lowercase;
+    font-style: italic;
+  }
+
+  .avoid-break {
+    display: inline-block;
   }
 
   h1 {
@@ -250,6 +286,7 @@
   dt {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
+    padding-bottom: 0.375em;
   }
 
   dd {
@@ -458,7 +495,6 @@
 
   .image {
     position: relative;
-    z-index: -1;
   }
 
   .image::before {
@@ -591,21 +627,25 @@
 
   body > header {
     padding-top: 4.5em;
+    /*
+    overflow: hidden;
+    */
   }
 
   @media (min-width: 35em) {
     body > header {
-      padding-top: 0;
+      padding-top: 1.5em;
       padding-bottom: 0;
     }
   }
 
-  body header > a {
+  body > header > a {
     display: block;
     color: inherit;
     text-decoration: inherit;
     position: relative;
-    padding: 1.5em 1.5em 1.5em 5.25em;
+    padding: 1.5em 0 1.5em 5.25em;
+    z-index: 1;
   }
 
   @supports ((-o-object-fit: cover) or (object-fit: cover)) {
@@ -705,6 +745,7 @@
   body > header .nav-link {
     margin: 0;
     position: absolute;
+    z-index: 1;
     top: 1.5em;
     right: 1.5em;
   }

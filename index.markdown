@@ -12,51 +12,89 @@ body.has-image > header {
   color: inherit;
   text-shadow: none;
 }
+.nav-link {
+  z-index: 99999999999999 !important;
+}
 body > .image {
   background: transparent;
   background-color: rgb(237, 237, 239);
+  padding-top: 25em;
 }
-.staff-list {
-  background-color: white;
+body > .image img {
+  width: 100%;
+  height: auto;
 }
 main > div:first-of-type {
   position: absolute;
-  top: 80vh;
+  z-index: 9999;
+  top: 10.5em;
   margin-right: 1.5em;
-  color: white;
+}
+
+@media (min-width: 40em) {
+  body > .image {
+    padding-top: 15em;
+  }
+  main > div:first-of-type {
+    top: 7.5em;
+  }
+}
+
+/*
+body > .image img {
+  position: relative;
+  z-index: 2;
+}
+*/
+.staff-list {
+  background-color: white;
 }
 main > div:first-of-type + p {
   margin-top: 0;
 }
-main > div:first-of-type h1,
-main > div:first-of-type a {
-  color: inherit;
-}
-@media (min-width: 35em), (min-height: 35em) {
-  main h1 {
-    font-size: 5vmax;
-  }
-}
+
+    .image::before,
+    .image::after {
+      display: none;
+    }
 @supports (object-fit: cover) {
   .image {
     padding-top: 20vh;
+    position: static;
   }
   .image img {
     width: 100%;
     height: 85vh;
+    position: relative;
+    z-index: 9999;
   }
   @media (min-aspect-ratio: 1/1) {
     .image {
       padding-top: 0;
     }
     .image img {
-      height: 115vh;
+      height: 100vh;
+      object-position: top !important;
     }
   }
 }
 
-
-
+/*
+.summaries .parents-summary {
+  transform: rotate(2deg);
+  padding-bottom: 3em;
+  margin-bottom: -3em;
+}
+.summaries .parents-summary > * {
+  transform: rotate(-2deg);
+}
+.summaries .calendar-summary {
+  transform: rotate(-2deg);
+}
+.summaries .calendar-summary > * {
+  transform: rotate(2deg);
+}
+*/
 </style>
 
 <!--
@@ -66,13 +104,9 @@ Always an Aztec!
 
 <div markdown="1">
 
-  <h1>Every student college <small>and</small> career ready</h1>
+  <h1>Every Student College <span class="lowercase">and</span> <span class="avoid-break">Career Ready</span></h1>
 
 </div>
-
-<p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.</p>
-
-<p>Learn more <a href="/about">about our school</a></p>
 
 <!--
 <div class="introduction">
@@ -118,6 +152,10 @@ Always an Aztec!
 })();
 </script>
 -->
+
+<p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.</p>
+
+<p>Learn more <a href="/about">about our school</a></p>
 
 <div class="staff-list">
   <h2>Our Teachers</h2>

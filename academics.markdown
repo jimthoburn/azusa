@@ -67,9 +67,9 @@ Courses to Support our English Learners:
 
 Math elective course to support our struggling students
 
-## Advanced Placement & Honors Courses
+## Advanced Placement & <span class="avoid-break">Honors Courses</span>
 
-We offer numerous Honors, AP, and IB Courses. Some are grade specific and some are based on student progress levels. Any course that is not grade specific are included following the grade specific classes.
+We offer numerous Honors, [Advanced Placement (AP®)](https://apstudent.collegeboard.org), and [International Baccalaureate® (IB)](http://www.ibo.org) Courses. Some are grade specific and some are based on student progress levels. Any course that is not grade specific are included following the grade specific classes.
 10th Grade
 AP World History
 Honors English II
@@ -135,14 +135,14 @@ Honors English II
 * Emergency Medical Technician
 * Computer Applications ROTC
 
-## Pathway Programs & College-Career Prep Courses
+## Pathway Programs & <span class="avoid-break">College-Career Preparation Courses</span>
 
-* Project Lead the Way, Academy of Engineering and Computer Science
-* Business, Academy of Finance and Accounting
-* IB
-* Fashion and Interior Design
-* AVID
-* Automotive Design and Maintenance
+* Project Lead the Way, Academy of Engineering & <span class="avoid-break">Computer Science</span>
+* Business, Academy of Finance & Accounting
+* [International Baccalaureate® (IB)](http://www.ibo.org)
+* Fashion & Interior Design
+* [AVID](http://www.avid.org)
+* Automotive Design & Maintenance
 
 ## 2015-2016 Matriculation
 

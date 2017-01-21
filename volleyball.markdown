@@ -83,6 +83,8 @@ main .schedule {
   margin-left: -1.5em;
   margin-right: -1.5em;
   background-color: rgb(247, 247, 249);
+  position: relative;
+  z-index: 99999;
 }
 @media (min-width: 60em) {
   main .schedule {
