@@ -617,7 +617,7 @@
       body.has-image > header {
         height: 70vh;
         min-height: 9em;
-        min-height: 30vmax;
+        min-height: 40vmax;
       }
     }
     body.has-image:not(.image-focus-bottom) > header > a {
