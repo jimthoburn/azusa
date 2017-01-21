@@ -25,10 +25,12 @@
     color: rgb(57, 164, 208);
   }
 
+  /*
   main h1,
   main h2 {
-    color: rgb(57, 164, 208);
+    color: var(--headline-color);
   }
+  */
 
   dt {
     color: rgb(57, 164, 208);

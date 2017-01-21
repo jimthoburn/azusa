@@ -75,9 +75,29 @@ main h1 {
 main h1 + h2 {
   margin-top: 0;
 }
+
+main .schedule {
+  margin-top: 3em;
+  margin-bottom: -3em;
+  padding: 1px 1.5em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  background-color: rgb(247, 247, 249);
+}
+@media (min-width: 60em) {
+  main .schedule {
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: -3em;
+    margin-right: -3em;
+    margin-bottom: -6em;
+  }
+}
 </style>
 
 # Volleyball
+
+## State CIF Champions 2017
 
 ## Coaches
 
@@ -87,14 +107,18 @@ main h1 + h2 {
 
 <p style="font-style: italic; margin-left: 4em; margin-top: 0;"><small>Varsity Head Coach, since 2010</small></p>
 
-## State CIF Champions 2017
-
+<!--
 Azusa’s volleyball team is going to [the championship game](http://www.cifstate.org/sports/girls_volleyball/index)!
+-->
 
 ## Practice 
 
 Volleyball practice will begin on August 8 at 8:00 A.M. at Memorial Park in Azusa. You must bring your emergency card to practice. If you have not yet been cleared, clearances will take place from 9:00 A.M. until 2:00 P.M. on Monday August 8th in the Athletic Office.  If you have not been cleared you may not attend practice.
 
+<div class="schedule" markdown="1">
+
 ## 2016-17 Volleyball Schedule
 
 <iframe align="top" valign="right" width="100%" height="1600" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="yes" src="http://www.home-campus.com/team-widget.php?id=MjAxNi0xNywzMywxMywsR2FtZSxvbg=="></iframe>
+
+</div>

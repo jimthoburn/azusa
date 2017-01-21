@@ -12,6 +12,25 @@ dt {
 }
 </style>
 
+Fall
+: [Football](http://info.azusahighschool.jimthoburn.com/football)
+: [Volleyball](/volleyball/)
+: [Cross Country](/crosscountry/)
+: [Tennis](http://info.azusahighschool.jimthoburn.com/girlstennis)
+
+Winter
+: [Basketball](http://info.azusahighschool.jimthoburn.com/gbb)
+: [Soccer](http://info.azusahighschool.jimthoburn.com/girlssoccer)
+: [Wrestling](http://info.azusahighschool.jimthoburn.com/wrestling)
+
+Spring
+: [Badminton](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
+: [Baseball](http://info.azusahighschool.jimthoburn.com/baseball)
+: [Softball](http://info.azusahighschool.jimthoburn.com/softball)
+: [Golf](http://info.azusahighschool.jimthoburn.com/girlsgolf)
+: [Track & Field](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
+
+<!--
 ## Teams
 
 Badminton
@@ -70,6 +89,7 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
 
 </li>
 </ul>
+-->
 
 <!--
 <style>
