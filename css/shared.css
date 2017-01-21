@@ -88,10 +88,10 @@
 
   body {
     /*
-    font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font: 100%/1.5 "Poly", Georgia, serif;
     font: 100%/1.5 "Poly", "Vollkorn", "Source Sans Pro", "Open Sans", "Droid Serif", "Libre Baskerville", "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     */
-    font: 100%/1.5 "Poly", Georgia, serif;
+    font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -144,6 +144,7 @@
 
   h1,
   body > header h2,
+  body > nav h2,
   body > footer h2 {
     /*
     font-family: "Cinzel", "Vollkorn", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
@@ -152,6 +153,7 @@
     text-transform: uppercase;
     font-weight: 300;
     */
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
   }
@@ -174,9 +176,10 @@
     font-family: "Cinzel", "Roboto", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    */
+    font: 100%/1.5 "Poly", Georgia, serif;
     text-transform: lowercase;
-    font-style: italic;
+    font-weight: 400;
+    */
   }
 
   .avoid-break {
@@ -733,7 +736,6 @@
 
   body > header h2 + p {
     font-style: italic;
-    opacity: 0.75;
   }
 
   /*
@@ -869,10 +871,7 @@
   body > nav h2 {
     font-size: inherit;
     max-width: none;
-    font-weight: inherit;
-    text-transform: none;
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 400;
   }
 
   body > nav > ul {

@@ -1,10 +1,10 @@
 ---
-title: Support and Wellness Programs at Azusa High School
+title: Support & Wellness Programs at Azusa High School
 layout: default
 image: "/images/photos/computer-lab.jpg"
 ---
 
-# Support and Wellness
+# Support <span class="lowercase">&</span> Wellness Programs
 
 Azusa High School received a bronze level award for Positive Behavior Intervention and Support (PBIS)
 

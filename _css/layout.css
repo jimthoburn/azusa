@@ -298,7 +298,6 @@
   }
   body > header h2 + p {
     font-style: italic;
-    opacity: 0.75;
   }
   /*
   body > header {
@@ -413,10 +412,7 @@
   body > nav h2 {
     font-size: inherit;
     max-width: none;
-    font-weight: inherit;
-    text-transform: none;
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 400;
   }
   body > nav > ul {
     text-align: center;
