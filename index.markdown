@@ -3,19 +3,69 @@ title: Azusa High School, Every student college and career ready
 classname: home
 layout: default
 has_wide_content: true
-image: "/images/photos/three-students.jpg"
+image: "/images/photos/three-students-2.png"
+image_focus: bottom
 ---
+
+<style>
+body.has-image > header {
+  color: inherit;
+  text-shadow: none;
+}
+body > .image {
+  background: transparent;
+  background-color: rgb(237, 237, 239);
+}
+.staff-list {
+  background-color: white;
+}
+main > div:first-of-type {
+  position: absolute;
+  top: 80vh;
+  color: white;
+}
+main > div:first-of-type + p {
+  margin-top: 0;
+}
+main > div:first-of-type h1,
+main > div:first-of-type a {
+  color: inherit;
+}
+@media (min-width: 35em), (min-height: 35em) {
+  main h1 {
+    font-size: 5vmax;
+  }
+}
+@supports (object-fit: cover) {
+  .image img {
+    width: 100%;
+    height: 120vh;
+  }
+  @media (min-aspect-ratio: 1/1) {
+    .image img {
+      height: 115vh;
+    }
+  }
+}
+
+
+
+</style>
 
 <!--
 Once an Aztec<br />
 Always an Aztec!
 -->
 
-# Every student college <small>and</small> career ready
+<div markdown="1">
 
-Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.
+  <h1>Every student college <small>and</small> career ready</h1>
 
-Learn more [about our school](/about)
+</div>
+
+<p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.</p>
+
+<p>Learn more <a href="/about">about our school</a></p>
 
 <!--
 <div class="introduction">

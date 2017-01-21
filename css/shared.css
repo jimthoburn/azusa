@@ -1073,7 +1073,7 @@
     background-color: rgba(0, 0, 0, 0.05);
   }
 
-  @media (min-width: 140em) {
+  @media (min-width: 60em) {
     .summaries {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1088,7 +1088,7 @@
     }
   }
 
-  @media (min-width: 180em) {
+  @media (min-width: 120em) {
     .summaries {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
