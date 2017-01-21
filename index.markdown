@@ -37,11 +37,17 @@ main > div:first-of-type a {
   }
 }
 @supports (object-fit: cover) {
+  .image {
+    padding-top: 20vh;
+  }
   .image img {
     width: 100%;
-    height: 120vh;
+    height: 85vh;
   }
   @media (min-aspect-ratio: 1/1) {
+    .image {
+      padding-top: 0;
+    }
     .image img {
       height: 115vh;
     }
