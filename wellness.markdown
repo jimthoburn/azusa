@@ -6,27 +6,24 @@ image: "/images/photos/computer-lab.jpg"
 
 # Support and Wellness
 
-Bronze level award for Positive Behavior Intervention and Support (PBIS)
+Azusa High School received a bronze level award for Positive Behavior Intervention and Support (PBIS)
 
-## Afterschool Programs
+Afterschool Programs
+: [Cheerleading](http://info.azusahighschool.jimthoburn.com/cheerleading)
+: [Tutoring](/#math-tutoring-is-now-available)
+: Femineers Program GATE
 
-*   Cheer
-*   Tutoring
-*   Femineers Program GATE
+[Special Education](http://info.azusahighschool.jimthoburn.com/specialed)
+: We offer full program to support students with special needs.
+: Life Skills Program
 
-## Special Education
-
-*   We offer full program to support students with special needs.
-*   Life Skills Program
-
-## Bilingual Education
-
-*   SDAIE courses
-*   English Language Development classes
-*   Student Wellness Center
-*   Student Health Office
-*   School Psychologist, Counselors, and Mental Health Specialists on campus College and Career Center
-*   College and Career Center staffed with a full time Technician
-*   College Speakers
-*   Military Speakers
-*   Naviance College and Career Planning software program
+Bilingual Education
+: [SDAIE courses](http://info.azusahighschool.jimthoburn.com/science)
+: English Language Development classes
+: Student Wellness Center
+: [Student Health Office](http://info.azusahighschool.jimthoburn.com/healthservices)
+: School Psychologist, Counselors, and Mental Health Specialists on campus College and Career Center
+: [College and Career Center](http://info.azusahighschool.jimthoburn.com/careercenter) staffed with a full time Technician
+: College Speakers
+: Military Speakers
+: Naviance College and Career Planning software program

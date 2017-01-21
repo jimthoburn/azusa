@@ -4,6 +4,17 @@ layout: default
 image: "/images/photos/college.jpg"
 ---
 
+<style>
+.matriculation {
+  margin: 1.5em -0.75em -2.25em;
+}
+@media (min-width: 60em) {
+  .matriculation {
+    margin: 3em calc(-50vw + 21.5em) -4.5em;
+  }
+}
+</style>
+
 # Academics
 
 Azusa is a certified [International Baccalaureate® Diploma Programme](http://ibo.org/en/programmes/diploma-programme/) school
@@ -135,4 +146,13 @@ Honors English II
 
 ## 2015-2016 Matriculation
 
-[TODO: Add list of colleges/universities]
+<div class="matriculation">
+
+  <!-- TODO: Turn this into a list with the names of the colleges and universities -->
+
+  <picture>
+    <source srcset="/images/colleges-portrait.jpg" media="(max-aspect-ratio: 1/1)" />
+    <img src="/images/colleges.jpg" alt="" />
+  </picture>
+
+</div>

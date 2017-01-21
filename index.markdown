@@ -22,6 +22,7 @@ body > .image {
 main > div:first-of-type {
   position: absolute;
   top: 80vh;
+  margin-right: 1.5em;
   color: white;
 }
 main > div:first-of-type + p {

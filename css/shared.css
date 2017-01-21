@@ -25,12 +25,10 @@
     color: rgb(57, 164, 208);
   }
 
-  /*
   main h1,
   main h2 {
-    color: var(--headline-color);
+    color: rgb(57, 164, 208);
   }
-  */
 
   dt {
     color: rgb(57, 164, 208);
@@ -520,7 +518,7 @@
       @media (min-aspect-ratio: 1/1) {
         .image img {
           height: 70vh;
-          min-height: 30vmax;
+          min-height: 40vmax;
         }
       }
       body.image-focus-top .image img {
