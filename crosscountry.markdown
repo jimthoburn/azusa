@@ -59,7 +59,8 @@ body > main > p {
 */
 main h1 {
   position: absolute;
-  transform: translateY(-350%);
+  transform: translateY(-100%);
+  margin-top: -3.75rem;
   color: white;
 }
 @media (min-width: 50em) {

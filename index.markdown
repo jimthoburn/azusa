@@ -27,7 +27,7 @@ body > .image img {
 main > div:first-of-type {
   position: absolute;
   z-index: 9999;
-  top: 10.5em;
+  top: 12em;
   margin-right: 1.5em;
 }
 
@@ -36,7 +36,7 @@ main > div:first-of-type {
     padding-top: 15em;
   }
   main > div:first-of-type {
-    top: 7.5em;
+    top: 10.5em;
   }
 }
 
