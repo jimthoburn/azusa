@@ -11,8 +11,8 @@ has_wide_content: true
   background-image: url(/images/athletics/aztecs.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 5vh;
-  min-height: 50vh;
+  padding-top: 15vh;
+  min-height: 40vh;
 }
 body.has-image > header {
   height: 50vh;
@@ -59,21 +59,41 @@ body > main > p {
 */
 main h1 {
   position: absolute;
-  transform: translateY(-250%);
+  transform: translateY(-350%);
   color: white;
 }
 @media (min-width: 50em) {
   main h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 @media (min-width: 75em) {
   main h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 }
 main h1 + h2 {
   margin-top: 0;
+}
+
+main .schedule {
+  margin-top: 3em;
+  margin-bottom: -3em;
+  padding: 1px 1.5em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  background-color: rgb(247, 247, 249);
+  position: relative;
+  z-index: 99999;
+}
+@media (min-width: 60em) {
+  main .schedule {
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: -3em;
+    margin-right: -3em;
+    margin-bottom: -6em;
+  }
 }
 </style>
 
