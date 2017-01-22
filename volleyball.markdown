@@ -11,8 +11,8 @@ has_wide_content: true
   background-image: url(/images/athletics/aztecs.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 5vh;
-  min-height: 50vh;
+  padding-top: 15vh;
+  min-height: 40vh;
 }
 body.has-image > header {
   height: 50vh;

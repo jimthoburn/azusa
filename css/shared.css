@@ -87,10 +87,6 @@
   ----------------------------------------------- */
 
   body {
-    /*
-    font: 100%/1.5 "Poly", Georgia, serif;
-    font: 100%/1.5 "Poly", "Vollkorn", "Source Sans Pro", "Open Sans", "Droid Serif", "Libre Baskerville", "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    */
     font: 100%/1.5 "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -135,51 +131,29 @@
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1.5em;
     font-weight: inherit;
-    /*
-    font-family: "Cinzel", "Vollkorn", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Poly", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    */
   }
 
   h1,
   body > header h2,
-  body > nav h2,
+  body > nav    h2,
   body > footer h2 {
-    /*
-    font-family: "Cinzel", "Vollkorn", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Poly", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     text-transform: uppercase;
-    font-weight: 300;
-    */
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, sans-serif;
-    text-transform: uppercase;
+    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
   }
 
   h1 strong,
   body > header h2 strong,
+  body > nav    h2 strong,
   body > footer h2 strong {
     font-weight: 400;
   }
 
-  @media (min-width: 45em), (min-height: 45em) {
-    main h1 {
-      font-size: 5vmax;
-    }
-  }
-
   h1 .lowercase {
-    /*
-    font-family: "Vollkorn", "Roboto", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Cinzel", "Roboto", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font-family: "Poly", "Esteban", "Roboto Slab", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-    font: 100%/1.5 "Poly", Georgia, serif;
     text-transform: lowercase;
     font-weight: 400;
-    */
+    font-style: italic;
+    font-family: "Roboto", "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   }
 
   .avoid-break {
@@ -187,10 +161,16 @@
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1.25;
     margin-top: 0.6em;
     margin-bottom: 0.3em;
+  }
+
+  @media (min-width: 45em), (min-height: 45em) {
+    main h1 {
+      font-size: 5vmax;
+    }
   }
 
   h2 {
@@ -290,6 +270,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding-top: 0.375em;
     padding-bottom: 0.375em;
+    padding-left: 1.5em;
   }
 
   dd {
@@ -1486,5 +1467,78 @@
       margin-left: 5%;
     }
   }
+
+  body > header {
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  body > header .nav-link {
+    font-weight: bold;
+    z-index: 9999;
+    top: -1.5em;
+    right: -2em;
+  }
+
+  body > header .nav-link a {
+    padding: 2em 3em;
+    border-radius: 0;
+    /*
+    background-image: url(/images/texture-parallel.png);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+  }
+
+  body > header .nav-link a:hover,
+  body > header .nav-link a:active,
+  body > header .nav-link a:focus {
+    /*
+    background-image: url(/images/texture-parallel-black.png);
+    */
+  }
+
+  @media (min-width: 60em) { /* --big-screen-width */
+    body > header .nav-link a {
+      padding: 2.5em 3.5em;
+    }
+  }
+
+  body > header .nav-link a {
+    -webkit-transform: skew(-25deg, 25deg);
+            transform: skew(-25deg, 25deg);
+  }
+
+  body > header .nav-link a span {
+    display: block;
+    -webkit-transform: skew(25deg, -25deg) translate(-0.75em, 0.125em);
+            transform: skew(25deg, -25deg) translate(-0.75em, 0.125em);
+  }
+
+  /*
+  @supports(transform: rotate(25deg)) {
+    body > header .nav-link {
+      top: -10em;
+      right: -3.5em;
+    }
+    body > header .nav-link a {
+      padding: 0.75em 1.5em;
+      transform: rotate(25deg);
+    }
+    body > header .nav-link a span {
+      display: block;
+      transform: rotate(-25deg) translate(0em, 4.75em);
+    }
+    body > header .nav-link a {
+      padding: 6em;
+    }
+  }
+  */
+
+
+
 
 /*# sourceMappingURL=shared.css.map */

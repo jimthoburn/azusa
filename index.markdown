@@ -18,7 +18,7 @@ body.has-image > header {
 body > .image {
   background: transparent;
   background-color: rgb(237, 237, 239);
-  padding-top: 25em;
+  padding-top: 30em;
 }
 body > .image img {
   width: 100%;
@@ -106,6 +106,10 @@ Always an Aztec!
 
   <h1>Every Student College <span class="lowercase">and</span> <span class="avoid-break">Career Ready</span></h1>
 
+  <p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment.</p>
+
+  <p>Learn more <a href="/about">about our school</a></p>
+
 </div>
 
 <!--
@@ -152,10 +156,6 @@ Always an Aztec!
 })();
 </script>
 -->
-
-<p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment that is supported by collaborative community involvement in order to develop successful citizens that are college and career ready.</p>
-
-<p>Learn more <a href="/about">about our school</a></p>
 
 <div class="staff-list">
   <h2>Our Teachers</h2>
@@ -207,12 +207,6 @@ Always an Aztec!
 *   Choir room
   </div>
 
-  <div class="parents-summary text" markdown="1">
-## Parents & students
-
-Learn about attendance, handbooks, dress code and more on the [parents & students](http://info.azusahighschool.jimthoburn.com/parentwelcome) page.
-  </div>
-
   <div class="calendar-summary text" markdown="1">
 ## Calendar
 
@@ -226,6 +220,12 @@ January 11
 : Students Return from Break
 
 [See full calendar](http://info.azusahighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510104)
+  </div>
+
+  <div class="parents-summary text" markdown="1">
+## Parents & students
+
+Learn about attendance, handbooks, dress code and more on the [parents & students](http://info.azusahighschool.jimthoburn.com/parentwelcome) page.
   </div>
 </div>
 
