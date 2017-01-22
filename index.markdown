@@ -183,12 +183,13 @@ body > header h2 + p {
   color: rgb(46, 127, 182); /* --ocean */
   text-shadow: none;
   color: rgb(57, 164, 208); /* --light-blue */
+  color: rgb(40, 41, 43); /* --tungsten */
   text-shadow: none;
 }
+/*
 body > header h2 img {
   transform: translateY(-65%);
 }
-/*
 body > main > p {
   margin-right: 50vw;
 }
