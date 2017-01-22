@@ -3,11 +3,285 @@ title: Azusa High School, Every student college and career ready
 classname: home
 layout: default
 has_wide_content: true
-image: "/images/photos/three-students-2.png"
+image: "/images/photos/three-students.png"
 image_focus: bottom
 ---
 
 <style>
+/*
+body > main::before {
+  content: "";
+  background-color: white;
+  height: 1.5em;
+  width: 120%;
+  margin-top: -2.25em;
+  position: absolute;
+  z-index: 3;
+  left: -10%;
+  transform: rotate(-2deg);
+}
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -4.5em;
+      height: 3em;
+    }
+  }
+
+*/
+body {
+  background-color: rgb(244, 209, 81); /* --gold */
+  background-color: rgb(237, 237, 239);
+}
+body > main::before,
+body > main {
+  background-color: rgb(244, 209, 81); /* --gold */
+  background-color: rgb(237, 237, 239);
+}
+/*
+body > .image {
+  background-color: rgb(237, 237, 239);
+  background-image: url(/images/athletics.jpg);
+  background-position: center;
+  background-size: cover;
+}
+*/
+body > .image {
+  background-color: rgb(46, 127, 182); /* --ocean */
+  background-color: white;
+  background-color: rgb(244, 209, 81); /* --gold */
+  background-color: rgb(237, 237, 239);
+  /*
+  transform: skew(0, -2deg) translate(0, -5vh);
+  */
+  height: 10em;
+  min-height: 80vmax;
+}
+/*
+body > .image img {
+  transform: skew(0, 2deg) translate(0, 5vh);
+}
+*/
+body > .image::before,
+body > .image::after {
+  display: none;
+}
+body > .image img {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+  right: 0;
+  z-index: 9999;
+}
+
+body.image-reverse > .image img {
+  left: 0.75em;
+}
+@media (min-width: 60em) {
+  body.image-reverse > .image img {
+  lefteft: 3em;
+  }
+}
+
+body > main > div:first-of-type {
+  background: white;
+  position: relative;
+  z-index: 9999999999;
+  padding: 1.5em 1.5em 0;
+  margin: 0 -1.5em -3em;
+}
+@media (min-width: 60em) {
+  body > main > div:first-of-type {
+    padding: 3em 3em 0;
+    margin-left: -3em;
+    margin-right: -3em;
+    margin-bottom: -3em;
+  }
+}
+body > main > div:first-of-type p:first-child {
+  margin-top: 0;
+}
+body.image-reverse main h1 {
+  left: auto;
+  right: 1.5rem;
+  max-width: none;
+  text-align: right;
+}
+/*
+@media (min-aspect-ratio: 1/1) {
+  body > .image {
+    height: 65vh;
+    min-height: 65vh;
+  }
+  body > .image img {
+    top: 30vh;
+  }
+  body > .image img {
+    width: 40vw;
+    height: auto;
+    right: -3em;
+  }
+  body > main > div:first-of-type {
+    background: transparent;
+    position: static;
+    padding: 0;
+    margin: 0;
+    margin-right: 35%;
+  }
+  body.image-reverse main h1 {
+    margin-left: 0;
+    left: 50vw;
+    right: auto;
+    margin-right: 3rem;
+    text-align: left;
+  }
+  body.image-reverse > main > div:first-of-type {
+    margin-right: 0;
+    margin-left: 50vw;
+    margin-left: calc(50vw - 1.5em);
+  }
+  @media (min-width: 60em) {
+    body.image-reverse > main > div:first-of-type {
+      margin-left: calc(50vw - 3em);
+    }
+  }
+}
+*/
+/*
+@media (min-width: 35em) {
+  body.image-reverse main h1 {
+    margin-left: 0;
+    left: 50vw;
+    right: auto;
+    margin-right: 3rem;
+    text-align: left;
+  }
+  body.image-reverse main > div:first-of-type p,
+  body.image-reverse main > div:first-of-type ul {
+    max-width: none;
+    margin-left: 50vw;
+    margin-left: calc(50vw - 3em);
+    margin-right: 0;
+  }
+}
+*/
+
+/*
+body > header h2,
+body > header h2 + p {
+  color: black;
+  text-shadow: none;
+}
+body > header > a {
+  margin-top: 1em;
+}
+*/
+body > header h2,
+body > header h2 + p {
+  color: rgb(244, 209, 81); /* --gold */
+  color: white;
+  color: rgb(46, 127, 182); /* --ocean */
+  text-shadow: none;
+  color: rgb(57, 164, 208); /* --light-blue */
+  text-shadow: none;
+}
+body > header h2 img {
+  transform: translateY(-65%);
+}
+/*
+body > main > p {
+  margin-right: 50vw;
+}
+*/
+main h1 {
+  position: absolute;
+  z-index: 3;
+  /*
+  transform: translate(0, -100%);
+  margin-top: -1.5rem;
+  */
+  top: 9.75rem;
+  margin-right: 1.5rem;
+  color: rgb(244, 209, 81); /* --gold */
+  color: white;
+  color: rgb(46, 127, 182); /* --ocean */
+  color: rgb(57, 164, 208); /* --light-blue */
+}
+/*
+@media (min-width: 50em) {
+  main h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 75em) {
+  main h1 {
+    font-size: 4em;
+  }
+}
+*/
+main h1 + h2,
+main h1 + p {
+  margin-top: 0;
+}
+figure {
+  margin-top: 1.5em;
+  margin-left: -4.5em;
+  margin-right: -4.5em;
+  margin-bottom: -4.5em;
+  max-width: none;
+  position: relative;
+  z-index: 99999;
+  transform: rotate(-2deg);
+  overflow: hidden;
+  background: rgb(51, 51, 51);
+}
+@media (min-width: 60em) {
+  figure {
+    margin-bottom: -7.5em;
+  }
+}
+figure img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+  transform: rotate(2deg) scale(1.125);
+}
+/*
+figure {
+  transform: rotate(-5deg) scale(0.85) translate(-6em, 0);
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+figure img {
+  transform: rotate(5deg) scale(1.15);
+}
+*/
+.staff-list {
+  margin-top: 3em;
+  padding: 1px 1.5em 3em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  background-color: white;
+  position: relative;
+  z-index: 99999;
+}
+@media (min-width: 60em) {
+  .staff-list {
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+}
+.summaries {
+  margin-top: 0;
+  background-color: white;
+  position: relative;
+  z-index: 99999;
+}
+</style>
+
+<style media="false">
 body.has-image > header {
   color: inherit;
   text-shadow: none;
@@ -48,6 +322,9 @@ body > .image img {
 */
 .staff-list {
   background-color: white;
+}
+.staff-list h2 {
+  margin-top: 0;
 }
 main > div:first-of-type + p {
   margin-top: 0;
@@ -102,9 +379,9 @@ Once an Aztec<br />
 Always an Aztec!
 -->
 
-<div markdown="1">
+<h1>Every Student College <span class="lowercase">and</span> <span class="avoid-break">Career Ready</span></h1>
 
-  <h1>Every Student College <span class="lowercase">and</span> <span class="avoid-break">Career Ready</span></h1>
+<div markdown="1">
 
   <p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment.</p>
 
