@@ -42,13 +42,8 @@
     background-image: url(/images/texture-parallel-black.png);
     */
   }
-  @media (min-width: 60em) { /* --big-screen-width */
-    body > header .nav-link a {
-      padding: 2.5em 3.5em;
-    }
-  }
   body > header .nav-link a {
-    transform: skew(-25deg, 25deg);
+    transform: skew(-25deg, 25deg) scale(0.75);
   }
   body > header .nav-link a span {
     display: block;
