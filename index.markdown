@@ -83,23 +83,80 @@ body.image-reverse > .image img {
   }
 }
 
+
+body > main::before {
+  display: none;
+}
 body > main > div:first-of-type {
   background: white;
   position: relative;
   z-index: 9999999999;
-  padding: 1.5em 1.5em 0;
+  padding: 3em 1.5em;
   margin: 0 -1.5em -3em;
+  background: rgb(57, 164, 208); /* --light-blue */
+  color: white;
+  background-image: url(/images/aztec-pattern.svg), url(/images/aztec-pattern.svg);
+  background-position: top, bottom;
+  background-size: auto 1.5em;
+  background-repeat: repeat-x;
+  /*
+  background-image: url(/images/aztec-circle.png);
+  background-position: top;
+  background-size: 100% 100%;
+  */
+  /*
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6em !important;
+  padding-right: 6em !important;
+  border-radius: 50%;
+  height: 100vw;
+  -webkit-clip-path: circle(50vw at 50% 50%);
+  transform: skew(0, 2deg) translate(0, 5%);
+  transform: perspective(600px) rotateY(5deg);
+  */
+
+  /*Chrome,Safari*/
+  /*
+  -webkit-clip-path: polygon(0 0,6.25% 5%,25% 0,62.5% 5%,75% 0,87.5% 5%,100% 0,100% 100%,92.5% 95%,75% 100%,50% 95%,25% 100%,12.5% 95%,0 100%);
+  margin-top: -3em;
+  padding-top: 3em !important;
+  padding-bottom: 3em !important;
+  transform: translate(0, 5%);
+  */
 }
 @media (min-width: 60em) {
   body > main > div:first-of-type {
-    padding: 3em 3em 0;
+    padding-top: 4.5em !important;
+    padding-bottom: 4.5em !important;
+  }
+}
+body > main > div:first-of-type > * {
+}
+body > main > div:first-of-type p a {
+  color: inherit;
+}
+body > main > div:first-of-type p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 60em) {
+  body > main > div:first-of-type {
+    padding: 3em;
     margin-left: -3em;
     margin-right: -3em;
     margin-bottom: -3em;
   }
+  body > main > div:first-of-type p {
+    font-size: 2vmax;
+  }
 }
-body > main > div:first-of-type p:first-child {
-  margin-top: 0;
+body > main > div:first-of-type h2:first-child {
+  margin-top: 0.75rem;
 }
 body.image-reverse main h1 {
   left: auto;
@@ -176,6 +233,22 @@ body > header > a {
   margin-top: 1em;
 }
 */
+body > header > a {
+  margin-top: -3.75em;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+body > header h2 img {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  transform: none;
+  margin-bottom: 0.75em;
+}
 body > header h2,
 body > header h2 + p {
   color: rgb(244, 209, 81); /* --gold */
@@ -197,29 +270,24 @@ body > main > p {
 main h1 {
   position: absolute;
   z-index: 3;
+  text-align: center;
   /*
   transform: translate(0, -100%);
   margin-top: -1.5rem;
   */
-  top: 9.75rem;
+  top: 11.25rem;
   margin-right: 1.5rem;
   color: rgb(244, 209, 81); /* --gold */
   color: white;
   color: rgb(46, 127, 182); /* --ocean */
   color: rgb(57, 164, 208); /* --light-blue */
 }
-/*
-@media (min-width: 50em) {
+@media (min-width: 30em) {
   main h1 {
-    font-size: 3em;
+    margin-right: 3rem;
+    font-size: 6vmax;
   }
 }
-@media (min-width: 75em) {
-  main h1 {
-    font-size: 4em;
-  }
-}
-*/
 main h1 + h2,
 main h1 + p {
   margin-top: 0;
@@ -384,9 +452,11 @@ Always an Aztec!
 
 <div markdown="1">
 
-  <p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment.</p>
+  <div>
+    <p>Our mission is to provide a 21st century education that emphasizes critical thinking, effective communication, and respect for diversity and creativity in a safe and positive environment.</p>
 
-  <p>Learn more <a href="/about">about our school</a></p>
+    <p>Learn more <a href="/about">about our school</a></p>
+  </div>
 
 </div>
 

@@ -51,6 +51,60 @@
     color: rgba(0, 0, 0, 0.9);
     color: rgba(255, 255, 255, 0.9);
   }
+  body > nav {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: top;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+    padding-top: 4.5em !important;
+  }
+  /*
+  body > footer {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: bottom;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+  }
+  */
+  /*
+  body > main::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: -1.5em;
+    transform: translate(0, -100%);
+    height: 1.5em;
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: top;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+  }
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -3em;
+    }
+  }
+  */
+  /*
+  body > main::before {
+    content: "";
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    background: white;
+    margin-top: -1.5em;
+    transform: translate(0, -50%);
+    height: 1.5em;
+    border-radius: 50%;
+  }
+  @media (min-width: 60em) {
+    body > main::before {
+      margin-top: -3em;
+    }
+  }
+  */
+
   body > nav button {
     background-color: rgba(0, 0, 0, 0.3);
   }
