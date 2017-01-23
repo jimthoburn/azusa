@@ -258,6 +258,7 @@ body > header h2 + p {
   color: rgb(57, 164, 208); /* --light-blue */
   color: rgb(40, 41, 43); /* --tungsten */
   text-shadow: none;
+  text-align: center;
 }
 /*
 body > header h2 img {
