@@ -95,8 +95,8 @@ body > main > div:first-of-type {
   margin: 0 -1.5em -3em;
   background: rgb(57, 164, 208); /* --light-blue */
   color: white;
-  background-image: url(/images/aztec-pattern.svg), url(/images/aztec-pattern.svg);
-  background-position: top, bottom;
+  background-image: url(/images/aztec-pattern.svg);
+  background-position: top;
   background-size: auto 1.5em;
   background-repeat: repeat-x;
   /*
