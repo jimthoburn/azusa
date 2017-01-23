@@ -286,6 +286,8 @@ main h1 {
   main h1 {
     margin-right: 3rem;
     font-size: 6vmax;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 }
 main h1 + h2,
