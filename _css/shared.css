@@ -69,6 +69,7 @@
   }
   */
 
+  /*
   body > main {
     padding-top: 2.25em;
   }
@@ -88,6 +89,7 @@
       margin-top: -3em;
     }
   }
+  */
 
   .disabled body > main::before {
     content: "";

@@ -1707,19 +1707,18 @@
   }
   */
 
+  /*
   body > main {
     padding-top: 2.25em;
   }
-
   body > main::before {
     content: "";
-    border-top: 0.25em solid rgb(57, 164, 208);
+    border-top: 0.25em solid var(--light-blue);
     width: 100%;
     position: absolute;
     left: 0;
     margin-top: -2.25em;
   }
-
   @media (min-width: 60em) {
     body > main {
       padding-top: 3em;
@@ -1728,6 +1727,7 @@
       margin-top: -3em;
     }
   }
+  */
 
   .disabled body > main::before {
     content: "";
