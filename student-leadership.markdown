@@ -1,7 +1,7 @@
 ---
 title: Student Leadership Class at Azusa High School
 layout: default
-image: /images/photos/student-leadership.jpg
+image: "/images/photos/student-leadership.jpg"
 ---
 
 # Student <span class="avoid-break">Leadership Class</span>

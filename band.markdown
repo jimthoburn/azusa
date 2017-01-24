@@ -1,7 +1,7 @@
 ---
 title: Band & Pageantry at Azusa High School
 layout: default
-image: /images/photos/band.jpg
+image: "/images/photos/band.jpg"
 ---
 
 # Band & Pageantry
