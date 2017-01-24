@@ -1,0 +1,31 @@
+
+  /* =Photos
+  ----------------------------------------------- */
+  .photos ul,
+  .photos li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .photos::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .photos img {
+    display: block;
+    width: 100%;
+  }
+  @media (min-width: 70em) {
+    .photos img {
+      width: 50%;
+      float: left;
+    }
+    .photos li:nth-child(2n+1) img {
+      clear: both;
+    }
+    .photos li:nth-child(2n+1):last-child {
+      width: 100%;
+      float: none;
+    }
+  }
