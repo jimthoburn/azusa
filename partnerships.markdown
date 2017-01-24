@@ -39,3 +39,7 @@ image: "/images/photos/partnerships.jpg"
 *   Azusa Womens Club
 *   California School Employees Association The Gas Company
 *   In addition, there are several Memorial Scholarship Awards that are presented.
+
+## Want to become a partner?
+
+See some examples of [programs and posters](http://info.azusahighschool.jimthoburn.com/partnership/) and [contact us](http://info.azusahighschool.jimthoburn.com/partnership/) to get started.

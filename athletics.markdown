@@ -30,6 +30,10 @@ Spring
 : [Golf](http://info.azusahighschool.jimthoburn.com/girlsgolf)
 : [Track & Field](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
 
+## Ready to join an athletic team?
+
+Complete the [athletic clearance form](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1451900536688) along with a parent or guardian.
+
 <!--
 ## Teams
 
