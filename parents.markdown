@@ -49,7 +49,7 @@ Rockvale Avenue
 * [Information for Seniors](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1333620021433)
 * [College/Career Center](/college-career/)
 * [Campus Store](/store/)
-* [Band & Pageantry](/band/)
+* [Band & Pageantry](/band-pageantry/)
 * [Lunch Application](https://azusa.rocketscanapps.com)
 * [Parent Transporting Student Form](http://ahs-ausd-ca.schoolloop.com/file/1301752510104/1331967107018/7630330851798271025.pdf)
 * [School Plan](http://ahs-ausd-ca.schoolloop.com/file/1331966718479/1330874847223/1965384106257283887.pdf)

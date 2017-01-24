@@ -21,7 +21,7 @@ image: "/images/life/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2U
 
 * [Best Buddies](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1476173877217/), ([International](https://bestbuddies.org)), ([Facebook](https://www.facebook.com/Aztec-Best-Buddies-361528793940131/))
 * AVID
-* [Band and Pageantry](http://www.azusahighschool.net/bandpageantry)
+* [Band and Pageantry](/band-pageantry/)
 * JROTC
 * Future Business Leaders of America (FBLA)
 * MECHA

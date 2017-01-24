@@ -1,11 +1,26 @@
 
   /* =Photos
   ----------------------------------------------- */
+  .photos {
+    margin: 1.5em -1.5em -3.75em;
+  }
+  @media (min-width: 60em) {
+    .photos {
+      margin: 3em calc(-50vw + 20em) -6em;
+    }
+  }
   .photos ul,
   .photos li {
+    /* @reset-list */
     list-style: none;
     margin-left: 0;
-    padding-left: 0;
+    padding: 0;
+    border-width: 0;
+    font-style: inherit;
+  }
+  .photos ul,
+  .photos li {
+    max-width: none;
   }
   .photos::after {
     content: "";
