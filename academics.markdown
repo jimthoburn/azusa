@@ -23,41 +23,41 @@ Azusa is a certified [International Baccalaureate® Diploma Programme](http://ib
 
 ### 9th Grade
 
-*   English
-*   Math
-  *   Integrated I
-  *   Integrated II
-*   Earth Science
-*   Biology
-*   Fine arts
-*   Spanish
-*   French
-*   American Sign Language
+* English
+* Math
+  * Integrated I
+  * Integrated II
+* Earth Science
+* Biology
+* Fine arts
+* Spanish
+* French
+* American Sign Language
 
 ### 10th Grade
 
-*   English
-*   World History
-*   Math
-  *   Integrated II
-  *   Integrated III
-*   Biology
-*   Chemistry
+* English
+* World History
+* Math
+  * Integrated II
+  * Integrated III
+* Biology
+* Chemistry
 
 ### 11th Grade
 
-*   English
-*   U.S. History
-*   Math
-*   Chemistry
-*   Physics
+* English
+* U.S. History
+* Math
+* Chemistry
+* Physics
 
 ### 12th Grade
 
-*   English
-*   Expository Reading and Writing
-*   Economics
-*   Government
+* English
+* Expository Reading and Writing
+* Economics
+* Government
 
 We encourage students to continue in challenging courses in math and science
 
