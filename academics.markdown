@@ -1,7 +1,7 @@
 ---
 title: Academics at Azusa High School
-layout: default
 image: "/images/photos/college.jpg"
+layout: default
 ---
 
 <style>
@@ -24,7 +24,10 @@ Azusa is a certified [International Baccalaureate® Diploma Programme](http://ib
 ### 9th Grade
 
 *   English
-*   Math - Integrated I, Integrated II. Earth Science
+*   Math
+  *   Integrated I
+  *   Integrated II
+*   Earth Science
 *   Biology
 *   Fine arts
 *   Spanish
@@ -35,20 +38,28 @@ Azusa is a certified [International Baccalaureate® Diploma Programme](http://ib
 
 *   English
 *   World History
-*   Math Integrated II, Integrated III Biology
+*   Math
+  *   Integrated II
+  *   Integrated III
+*   Biology
 *   Chemistry
 
 ### 11th Grade
 
 *   English
-*   U.S. History Math Chemistry Physics
+*   U.S. History
+*   Math
+*   Chemistry
+*   Physics
 
 ### 12th Grade
 
 *   English
-*   Expository Reading and Writing Economics
+*   Expository Reading and Writing
+*   Economics
 *   Government
-*   We encourage students to continue in challenging courses in math and science
+
+We encourage students to continue in challenging courses in math and science
 
 ### World Language Courses
 
@@ -70,9 +81,11 @@ Math elective course to support our struggling students
 ## Advanced Placement & <span class="avoid-break">Honors Courses</span>
 
 We offer numerous Honors, [Advanced Placement (AP®)](https://apstudent.collegeboard.org), and [International Baccalaureate® (IB)](http://www.ibo.org) Courses. Some are grade specific and some are based on student progress levels. Any course that is not grade specific are included following the grade specific classes.
-10th Grade
-AP World History
-Honors English II
+
+### 10th Grade
+
+* AP World History
+* Honors English II
 
 ### 11th Grade
 
