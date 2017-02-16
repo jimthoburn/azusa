@@ -178,7 +178,7 @@
     margin-bottom: 0.75em;
 
     /* Limit line lengths, for readability. */
-    max-width: 33em;
+    max-width: 40em;
     /*
     margin-left: auto;
     margin-right: auto;
@@ -269,6 +269,19 @@
     font-size: inherit;
     font-weight: inherit;
     font-style: italic;
+  }
+
+  blockquote {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: rgb(57, 164, 208);
+  }
+
+  blockquote p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* =Elements
@@ -1025,8 +1038,8 @@
 
   body > header ul,
   body > header li,
-  body > nav ul,
-  body > nav li,
+  body > nav > ul,
+  body > nav > ul > li,
   body > footer ul,
   body > footer li {
     /* @reset-list */
@@ -1037,8 +1050,9 @@
     font-style: inherit;
   }
 
-  body > nav li ul li {
-    font-style: italic;
+  body > nav ul,
+  body > nav li {
+    border-width: 0;
   }
 
   body > nav ul,
