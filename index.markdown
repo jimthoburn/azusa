@@ -576,7 +576,7 @@ January 11
   <div class="parents-summary text" markdown="1">
 ## Parents & students
 
-Learn about attendance, handbooks, dress code and more on the [parents & students](http://info.azusahighschool.jimthoburn.com/parentwelcome) page.
+Learn about attendance, handbooks, dress code and more on the [parents & students](/parents/) page.
   </div>
 </div>
 

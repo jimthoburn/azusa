@@ -19,6 +19,12 @@ layout: default
 
 Azusa is a certified [International Baccalaureate® Diploma Programme](http://ibo.org/en/programmes/diploma-programme/) school
 
+* [Courses](#courses)
+* [Advanced Placement & Honors Courses](#advanced-placement--honors-courses)
+* [Electives](#electives)
+* [College & Career Preparation](#pathway-programs--college-career-preparation-courses)
+* [2015-2016 Matriculation](#2015-2016-matriculation)
+
 ## Courses
 
 ### 9th Grade

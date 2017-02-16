@@ -26,7 +26,7 @@ The student will receive an excused absence when a parent has contacted the atte
 
 ### Clearing Absences
 
-A parent note or phone call (815-3491) is the only way an absence can be cleared.  It is expected that absences will be cleared within 24 hours.  Absences not cleared within 5 days will be recorded as a truancy.  When leaving a voice mail to clear an absence, please leave your name, student's name and I.D. number, the date, and the reason for the absence.
+A parent note or phone call (626-815-3491) is the only way an absence can be cleared.  It is expected that absences will be cleared within 24 hours.  Absences not cleared within 5 days will be recorded as a truancy.  When leaving a voice mail to clear an absence, please leave your name, student's name and I.D. number, the date, and the reason for the absence.
 
 ### If you need to have your child released early from school
 
