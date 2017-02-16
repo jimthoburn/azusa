@@ -558,6 +558,12 @@ Always an Aztec!
 *   Choir room
   </div>
 
+  <div class="parents-summary text" markdown="1">
+## Parents & students
+
+Learn about attendance, handbooks, dress code and more on the [parents & students](/parents/) page.
+  </div>
+
   <div class="calendar-summary text" markdown="1">
 ## Calendar
 
@@ -571,12 +577,6 @@ January 11
 : Students Return from Break
 
 [See full calendar](http://info.azusahighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510104)
-  </div>
-
-  <div class="parents-summary text" markdown="1">
-## Parents & students
-
-Learn about attendance, handbooks, dress code and more on the [parents & students](/parents/) page.
   </div>
 </div>
 
