@@ -558,10 +558,21 @@ Always an Aztec!
 *   Choir room
   </div>
 
-  <div class="parents-summary text" markdown="1">
-## Parents & students
+  <div class="parents-summary text">
 
-Learn about attendance, handbooks, dress code and more on the [parents & students](/parents/) page.
+    <h2>Parents &amp; Students</h2>
+
+    <p>Learn about attendance, handbooks, dress code and more on the <span class="avoid-break" markdown="1"><a href="/parents/">Parents &amp; Students</a> page</span>.</p>
+
+    <ul>
+      <li><a href="/academics/">Courses</a></li>
+      <li><a href="http://ahs-ausd-ca.schoolloop.com/file/1301752510104/1331967107018/832015063604761631.pdf">Bell Schedule</a></li>
+      <li><a href="/attendance/">Attendance</a></li>
+      <li><a href="/parents/">Graduation Requirements</a></li>
+      <li><a href="/guidance/">Guidance</a></li>
+      <li><a href="/life/">Student Life</a></li>
+      <li><a href="/athletics/">Athletics</a></li>
+    </ul>
   </div>
 
   <div class="calendar-summary text" markdown="1">
