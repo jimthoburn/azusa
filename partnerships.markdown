@@ -6,6 +6,8 @@ image: "/images/photos/partnerships.jpg"
 
 # Partnerships
 
+<img src="/images/partnerships.jpg" alt="Parternships" width="500" />
+
 ## Community Partnerships
 
 *   Chick-fil-A Leader Academy
