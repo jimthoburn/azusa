@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 46.6 17.7" enable-background="new 0 0 46.6 17.7" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="46.6" height="17.7"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="rgb(57, 164, 208)" d="M45.7,6.6h-2.3v4.4h2.3c0.5,0,0.9-0.4,0.9-0.9V7.5C46.6,7,46.2,6.6,45.7,6.6"/>
+	<path clip-path="url(#SVGID_2_)" fill="rgb(57, 164, 208)" d="M0,7.5v2.7c0,0.4,0.3,0.8,0.7,0.9c0.1,0,0.1,0,0.2,0h2.3V6.6H0.9
+		C0.4,6.6,0,7,0,7.5"/>
+</g>
+<rect x="14.1" y="6.6" fill="rgb(57, 164, 208)" width="18.3" height="4.4"/>
+<g>
+	<defs>
+		<rect id="SVGID_3_" width="46.6" height="17.7"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_4_)" fill="rgb(57, 164, 208)" d="M7.4,2.1H4.9C4.5,2.1,4.1,2.5,4.1,3v11.7c0,0.3,0.2,0.6,0.4,0.8
+		c0.1,0.1,0.3,0.1,0.5,0.1h2.5c0.2,0,0.5-0.1,0.6-0.3v-13c0,0-0.1-0.1-0.2-0.1C7.7,2.1,7.6,2.1,7.4,2.1"/>
+	<path clip-path="url(#SVGID_4_)" fill="rgb(57, 164, 208)" d="M13.2,0.5C13.2,0.5,13.2,0.5,13.2,0.5C13,0.2,12.7,0,12.4,0H9.8
+		C9.3,0,8.9,0.4,8.9,0.9v15.9c0,0.5,0.4,0.9,0.9,0.9h2.7c0.5,0,0.9-0.4,0.9-0.9V0.9C13.3,0.7,13.3,0.6,13.2,0.5L13.2,0.5"/>
+	<path clip-path="url(#SVGID_4_)" fill="rgb(57, 164, 208)" d="M42.1,2.3C42.1,2.3,42.1,2.3,42.1,2.3C42.1,2.3,42.1,2.3,42.1,2.3
+		c-0.1-0.1-0.3-0.2-0.5-0.2h-2.5c-0.2,0-0.5,0.1-0.6,0.3v13c0.2,0.2,0.4,0.3,0.6,0.3h2.5c0.4,0,0.7-0.2,0.8-0.6
+		c0-0.1,0.1-0.2,0.1-0.3V3c0-0.2-0.1-0.5-0.2-0.6C42.2,2.3,42.2,2.3,42.1,2.3"/>
+	<path clip-path="url(#SVGID_4_)" fill="rgb(57, 164, 208)" d="M37.6,0.4C37.4,0.2,37.1,0,36.8,0h-2.7c-0.5,0-0.9,0.4-0.9,0.9v15.9
+		c0,0.5,0.4,0.9,0.9,0.9h2.7c0.5,0,0.9-0.4,0.9-0.9V0.9C37.7,0.7,37.6,0.6,37.6,0.4L37.6,0.4z"/>
+</g>
+</svg>

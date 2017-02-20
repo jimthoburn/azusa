@@ -548,14 +548,14 @@ Always an Aztec!
   <div class="facilities-summary text" markdown="1">
 ## Facilities
 
-*   Gym
-*   Theater
-*   4 computer labs
-*   Track and field
-*   Ceramics lab
-*   Engineering lab
-*   Band room
-*   Choir room
+*   ![](/images/icons/facilities/gym.svg) Gym
+*   ![](/images/icons/facilities/theater.svg) Theater
+*   ![](/images/icons/facilities/computer.svg) 4 computer labs
+*   ![](/images/icons/facilities/track.svg) Track and field
+*   ![](/images/icons/facilities/ceramics.svg) Ceramics lab
+*   ![](/images/icons/facilities/engineering.svg) Engineering lab
+*   ![](/images/icons/facilities/band.svg) Band room
+*   ![](/images/icons/facilities/choir.svg) Choir room
   </div>
 
   <div class="parents-summary text">

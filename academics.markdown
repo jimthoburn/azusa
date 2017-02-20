@@ -106,14 +106,14 @@ We offer numerous Honors, [Advanced Placement (AP®)](https://apstudent.collegeb
 * AP English Literature
 * ERWC - college preparation English course
 
-### Math
+### ![](/images/icons/honors/math.svg) Math
 
 * Honors Pre-Calculus
 * AP Calculus
 * AP Statistics
 * IB Math SL
 
-### Science
+### ![](/images/icons/honors/science.svg) Science
 
 * Honors Biology
 * AP Biology
@@ -122,17 +122,17 @@ We offer numerous Honors, [Advanced Placement (AP®)](https://apstudent.collegeb
 * AP/IB Chemistry Physics
 * AP/IB Physics
 
-### Social Studies
+### ![](/images/icons/honors/social.svg) Social Studies
 
 * AP Psychology
 
-### World Language
+### ![](/images/icons/honors/language.svg) World Language
 
 * AP/IB Spanish Language
 * AP Spanish Literature and Culture
 * AP/IB French
 
-### Fine Arts
+### ![](/images/icons/honors/art.svg) Fine Arts
 
 * AP/IB Visual Arts
 
@@ -156,12 +156,12 @@ We offer numerous Honors, [Advanced Placement (AP®)](https://apstudent.collegeb
 
 ## Pathway Programs & <span class="avoid-break">College-Career Preparation Courses</span>
 
-* Project Lead the Way, Academy of Engineering & <span class="avoid-break">Computer Science</span>
-* Business, Academy of Finance & Accounting
-* [International Baccalaureate® (IB)](http://www.ibo.org)
-* Fashion & Interior Design
-* [AVID](http://www.avid.org)
-* Automotive Design & Maintenance
+* ![](/images/icons/pathways/computer.svg) Project Lead the Way, Academy of Engineering & <span class="avoid-break">Computer Science</span>
+* ![](/images/icons/pathways/business.svg) Business, Academy of Finance & Accounting
+* [![](/images/icons/pathways/ib.svg) International Baccalaureate® (IB)](http://www.ibo.org)
+* ![](/images/icons/pathways/fashion.svg) Fashion & Interior Design
+* [![](/images/icons/pathways/avid.svg) AVID](http://www.avid.org)
+* ![](/images/icons/pathways/automobile.svg) Automotive Design & Maintenance
 
 ## 2015-2016 Matriculation
 
