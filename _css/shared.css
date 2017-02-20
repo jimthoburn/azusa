@@ -53,12 +53,29 @@
     transform: skew(25deg, -25deg) translate(-0.75em, 0.125em);
   }
 
+  body > nav {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: top;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+    padding-top: 4.5em;
+  }
+  body > footer {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: bottom;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+    padding-bottom: 4.5em;
+  }
+
   /* SHIM: Prevent horizontal scrollbars */
+  /*
   html, body {
     width: 100%;
     overflow-x: hidden;
     overflow-y: visible;
   }
+  */
 
   /*
   @supports(transform: rotate(25deg)) {

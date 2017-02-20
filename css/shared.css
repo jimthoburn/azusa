@@ -41,23 +41,6 @@
     color: rgba(255, 255, 255, 0.9);
   }
 
-  body > nav {
-    background-image: url(/images/aztec-pattern.svg);
-    background-position: top;
-    background-size: auto 1.5em;
-    background-repeat: repeat-x;
-    padding-top: 4.5em !important;
-  }
-
-  /*
-  body > footer {
-    background-image: url(/images/aztec-pattern.svg);
-    background-position: bottom;
-    background-size: auto 1.5em;
-    background-repeat: repeat-x;
-  }
-  */
-
   /*
   body > main::before {
     content: "";
@@ -1117,6 +1100,18 @@
     text-align: center;
   }
 
+  body > nav h1 {
+    font-size: inherit;
+    text-align: center;
+    margin-bottom: 2.25em;
+    max-width: none;
+  }
+
+  body > nav h1 img {
+    width: 12em;
+    height: auto;
+  }
+
   body > nav h2 {
     font-size: inherit;
     max-width: none;
@@ -1938,13 +1933,31 @@
             transform: skew(25deg, -25deg) translate(-0.75em, 0.125em);
   }
 
+  body > nav {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: top;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+    padding-top: 4.5em;
+  }
+
+  body > footer {
+    background-image: url(/images/aztec-pattern.svg);
+    background-position: bottom;
+    background-size: auto 1.5em;
+    background-repeat: repeat-x;
+    padding-bottom: 4.5em;
+  }
+
   /* SHIM: Prevent horizontal scrollbars */
 
+  /*
   html, body {
     width: 100%;
     overflow-x: hidden;
     overflow-y: visible;
   }
+  */
 
   /*
   @supports(transform: rotate(25deg)) {

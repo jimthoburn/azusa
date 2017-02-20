@@ -51,21 +51,6 @@
     color: rgba(0, 0, 0, 0.9);
     color: rgba(255, 255, 255, 0.9);
   }
-  body > nav {
-    background-image: url(/images/aztec-pattern.svg);
-    background-position: top;
-    background-size: auto 1.5em;
-    background-repeat: repeat-x;
-    padding-top: 4.5em !important;
-  }
-  /*
-  body > footer {
-    background-image: url(/images/aztec-pattern.svg);
-    background-position: bottom;
-    background-size: auto 1.5em;
-    background-repeat: repeat-x;
-  }
-  */
   /*
   body > main::before {
     content: "";
