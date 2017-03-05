@@ -26,9 +26,9 @@ Visit our [calendar](http://ahs-ausd-ca.schoolloop.com/cms/page_view?d=x&piid=&v
 
 ## Popular Pages
 
-* [College & Career Center Calendar](http://info.azusahighschool.jimthoburn.com/cms/page_view?d=x&piid=&vpid=1344353760609)
+* [College & Career Center Calendar](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1344353760609/)
 * [Upcoming Presentations, Deadlines & Events](http://info.azusahighschool.jimthoburn.com/presentations)
-* [Job Search Sites](http://info.azusahighschool.jimthoburn.com/cms/page_view?d=x&piid=&vpid=1349522606978)
+* [Job Search Sites](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1349522606978)
 * [Career Resources](http://info.azusahighschool.jimthoburn.com/careerresources)
 * [Career Training Programs](http://info.azusahighschool.jimthoburn.com/careertrainingprograms)
 * [Career & College Testing](http://info.azusahighschool.jimthoburn.com/testing)
@@ -37,12 +37,12 @@ Visit our [calendar](http://ahs-ausd-ca.schoolloop.com/cms/page_view?d=x&piid=&v
 * [Links to Specific Colleges & Universities](http://info.azusahighschool.jimthoburn.com/specificschools)
 * [Letter of Recommendation Information](http://info.azusahighschool.jimthoburn.com/letterofrecommendation)
 * [Financial Aid & Scholarships](http://info.azusahighschool.jimthoburn.com/financialaid)
-* [Information for Undocumented Students](http://info.azusahighschool.jimthoburn.com/cms/page_view?d=x&piid=&vpid=1350722460838)
+* [Information for Undocumented Students](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1350722460838/)
 * [Student Timelines by Grade Level](http://info.azusahighschool.jimthoburn.com/timelines)
-* [Educational Resources](http://info.azusahighschool.jimthoburn.com/cms/page_view?d=x&piid=&vpid=1351250114658)
+* [Educational Resources](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1351250114658)
 * [Legal Documents](http://info.azusahighschool.jimthoburn.com/legaldoc)
 * [Would You Like To Offer A Scholarship?](http://info.azusahighschool.jimthoburn.com/donor)
-* [2016-17 Seniors](http://info.azusahighschool.jimthoburn.com/cms/page_view?d=x&piid=&vpid=1433066601111)
+* [2016-17 Seniors](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1433066601111)
 
 ## Staff
 
