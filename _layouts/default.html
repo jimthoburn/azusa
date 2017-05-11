@@ -2,16 +2,231 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta name="robots" content="noindex" />
-  <meta http-equiv="refresh" content="0; url=http://azusahighschool.net" />
+  
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <title>This website has moved</title>
-
+  <!--
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Libre+Baskerville:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans:400,400i,700,700i|Source+Sans+Pro:400,400i,700|Roboto+Slab:300,400|Roboto:300i" />
+  <link href="https://fonts.googleapis.com/css?family=Esteban|Open+Sans:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,400i,700|Alegreya:400,400i,700|Crimson+Text:400,400i,700|Gentium+Book+Basic:400,400i,700|PT+Serif:400,400i,700|Source+Serif+Pro:400,600,700|Yrsa&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700|Roboto+Slab:300,400|Roboto:300i" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700|Roboto+Slab:100,300,400,700|Roboto+Condensed:400,700|Roboto:400,400i,700,700i" rel="stylesheet" />
+  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Roboto+Slab:300,400|Roboto:300i" />
+  <link rel="stylesheet" href="/css/shared.css" />
 </head>
-<body>
+<body class="{% if page.image %} has-image{% endif %} {% if page.image_focus == 'top' %} image-focus-top {% elsif page.image_focus == 'bottom' %} image-focus-bottom {% endif %}">
+  <header>
+    <a href="/">
+      <h2>
+        <img src="/images/azusa.png" width="150" alt="" />
+        <span>Azusa High School</span>
+      </h2>
+      <p>Home of the Mighty Aztecs</p>
+    </a>
 
-<h1>This website has moved to <a href="http://azusahighschool.net">http://azusahighschool.net</a></h1>
+    <p class="nav-link"><a href="#menu"><span>Menu</span></a></p>
+  </header>
 
+  {% if page.image %}
+    <div class="image">
+
+    {% if page.image_portrait %}
+      <picture>
+        <source srcset="{{ page.image_portrait }}" media="(max-aspect-ratio: 1/1)" />
+        <img src="{{ page.image }}" alt="" />
+      </picture>
+    {% else %}
+      <img src="{{ page.image }}" alt="" />
+    {% endif %}
+
+    </div>
+  {% endif %}
+
+  {% if page.images %}
+  <script>
+  (function() {
+    var images = [
+      {% for image in page.images %}
+        '{{ image }}'{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+    var min = 0;
+    var max = images.length - 1;
+    var random = Math.floor(Math.random() * (max - min + 1) + min);
+    var image = document.querySelector('.image img');
+    image.src = images[random];
+  })();
+  </script>
+  {% endif %}
+
+  <main{% if page.has_wide_content %} class="has-wide-content"{% endif %}>
+    {{ content }}
+  </main>
+
+  <nav id="menu">
+
+    <h1>
+      <a href="/">
+        <img src="/images/azusa-high-school.svg" alt="Azusa High School" />
+      </a>
+    </h1>
+
+    <ul>
+      <li>
+        <h2><a href="/academics">Academics</a></h2>
+        <ul>
+          <li><a href="/academics/#world-language-courses">World Language</a></li>
+          <li><a href="/academics/#english-language-development">English Language</a></li>
+          <li><a href="/academics/#advanced-placement--honors-courses">Honors Courses</a></li>
+          <li><a href="/academics/#pathway-programs--college-career-prep-courses">Pathway Programs</a></li>
+        <!--
+          <li><a href="/academics/#electives">Electives</a></li>
+          <li><a href="/academics/#matriculation">Matriculation</a></li>
+        -->
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/athletics">Athletics</a></h2>
+        <ul>
+          <li><a href="/athletics">Teams</a></li>
+          <li><a href="/crosscountry">Cross Country</a></li>
+          <li><a href="/volleyball">Volleyball</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/life">Student Life</a></h2>
+        <ul>
+          <li><a href="/life#clubs">Clubs</a></li>
+          <li><a href="/student-leadership/">Student Leadership</a></li>
+          <li><a href="/band-pageantry/">Band &amp; Pageantry</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/wellness">Support &amp; Wellness</a></h2>
+        <ul>
+          <li><a href="/wellness/#afterschool-programs">After School</a></li>
+          <li><a href="/wellness/#special-education">Special Education</a></li>
+          <li><a href="/wellness/#bilingual-education">Bilingual Education</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/partnerships">Partnerships</a></h2>
+        <ul>
+          <li><a href="/partnerships/#community-partnerships">Community</a></li>
+          <li><a href="/partnerships/#colleges-and-universities">Universities</a></li>
+          <li><a href="/partnerships/#corporations">Corporations</a></li>
+          <li><a href="/partnerships/#non-profits-and-others">Non-Profits</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/staff">Our Staff</a></h2>
+        <ul>
+          <li><a href="/staff">Administration</a></li>
+          <li><a href="/staff/#teachers">Teachers</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/attendance/">Student Services</a></h2>
+        <ul>
+          <li><a href="/attendance/">Attendance Office</a></li>
+          <li><a href="/library/">Library</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/college-career/">Guidance</a></h2>
+        <ul>
+          <li><a href="/college-career/">College &amp; Career Center</a></li>
+          <li><a href="/counseling/">Guidance &amp; Counseling Office</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/parents/">Parent &amp; Students</a></h2>
+        <ul>
+          <li><a href="/parents/">Calendar</a></li>
+          <li><a href="/parents/">Bell Schedule</a></li>
+          <li><a href="/gradnight/">Grad Night</a></li>
+        </ul>
+      </li>
+      <li>
+        <h2><a href="/about">About Our School</a></h2>
+        <ul>
+          <li><a href="/about/#message-from-our-prinicipal">Principal’s Message</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <form action="https://duckduckgo.com" method="get">
+      <input type="hidden" name="sites" value="azusa.org">
+      <p>
+        <label>
+          <span>Keywords</span>
+          <input type="search" name="q" />
+        </label>
+        <button>Search</button>
+      </p>
+    </form>
+  </nav>
+
+  <footer>
+
+    <div class="contact">
+      <div>
+        <h2>Azusa High School</h2>
+        <p>240 North Cerritos Avenue<br />Azusa, CA 91702 </p>
+        <p>626-815-3400</p>
+
+        <!--
+        <dl>
+          <dt>Attendance Office</dt>
+          <dd>626–815–3491</dd>
+
+          <dt>Main Office</dt>
+          <dd>626–815–3400</dd>
+
+          <dt>Guidance Office</dt>
+          <dd>626–815–3490</dd>
+
+          <dt>ASB Office</dt>
+          <dd>626–815–5225</dd>
+
+          <dt>Athletic Office</dt>
+          <dd>626–815–3433</dd>
+
+          <dt>Activities Office</dt>
+          <dd>626–815–3428</dd>
+        </dl>
+        -->
+      </div>
+
+      <p><strong>Linda McNary, Principal</strong><br /><a href="mailto:lmcnary@azusa.org">lmcnary@azusa.org</a></p>
+      <p><strong>Lorrie Brown, School Secretary</strong><br /><a href="mailto:lbrown@azusa.org">lbrown@azusa.org</a></p>
+    </div>
+
+    <div class="legal">
+      <h2><a href="http://azusa.org"><img src="/images/azusa-district.png" width="100" height="100" alt="Azusa Unified School District" /></a></h2>
+      <p>The District prohibits, at any district school or school activity, unlawful discrimination, harassment, intimidation, and bullying of any student based on the student’s actual race, color, ancestry, national origin, ethnic group, identication, age, religion, marital or parental status, physical or mental disability, sex, sexual orientation, gender, gender identity, or gender expression; the perception of one or more of such characteristics; or association with a person or group with one or more these actual or perceived characteristics.</p>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li><a href="">User Agreement</a></li>
+        <li><a href="">Privacy Notice</a></li>
+        <li><a href="">Security &amp; Data Policy</a></li>
+      </ul>
+      <!--
+      <ul>
+        <li><a href="">Staff Login</a></li>
+        <li><a href="">Site Map</a></li>
+      </ul>
+      -->
+    </div>
+  </footer>
+
+  <img src="/images/temples.jpg" style="display: block;" alt="" />
 </body>
 </html>
