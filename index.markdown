@@ -587,7 +587,7 @@ January 10
 January 11
 : Students Return from Break
 
-[See full calendar](http://info.azusahighschool.jimthoburn.com/cms/month-d=x&group_id=1301752510104)
+[See full calendar](http://info.azusahigh.jimthoburn.com/cms/month-d=x&group_id=1301752510104)
   </div>
 </div>
 

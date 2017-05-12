@@ -19,7 +19,7 @@ image: "/images/life/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2U
 
 ## Clubs
 
-* [Best Buddies](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1476173877217/), ([International](https://bestbuddies.org)), ([Facebook](https://www.facebook.com/Aztec-Best-Buddies-361528793940131/))
+* [Best Buddies](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1476173877217/), ([International](https://bestbuddies.org)), ([Facebook](https://www.facebook.com/Aztec-Best-Buddies-361528793940131/))
 * AVID
 * [Band and Pageantry](/band-pageantry/)
 * JROTC
@@ -32,14 +32,14 @@ image: "/images/life/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2U
 ## Activities
 
 * [Student Leadership](/student-leadership/)
-* [Commencement](http://info.azusahighschool.jimthoburn.com/commencement)
-* [Graduation Night](http://info.azusahighschool.jimthoburn.com/gradnight)
-* [Homecoming](http://info.azusahighschool.jimthoburn.com/homecoming)
-* [Prom](http://info.azusahighschool.jimthoburn.com/prom)
-* [Information for Seniors](http://info.azusahighschool.jimthoburn.com/seniorinformation)
-* [Students of the Month](http://info.azusahighschool.jimthoburn.com/som)
-* [Yearbook](http://info.azusahighschool.jimthoburn.com/yearbook)
-* [Aztec Singers](http://info.azusahighschool.jimthoburn.com/singers)
-* [Cheerleading](http://info.azusahighschool.jimthoburn.com/cheerleading)
-* [Band & Pageantry](http://info.azusahighschool.jimthoburn.com/bandpageantry)
+* [Commencement](http://info.azusahigh.jimthoburn.com/commencement)
+* [Graduation Night](http://info.azusahigh.jimthoburn.com/gradnight)
+* [Homecoming](http://info.azusahigh.jimthoburn.com/homecoming)
+* [Prom](http://info.azusahigh.jimthoburn.com/prom)
+* [Information for Seniors](http://info.azusahigh.jimthoburn.com/seniorinformation)
+* [Students of the Month](http://info.azusahigh.jimthoburn.com/som)
+* [Yearbook](http://info.azusahigh.jimthoburn.com/yearbook)
+* [Aztec Singers](http://info.azusahigh.jimthoburn.com/singers)
+* [Cheerleading](http://info.azusahigh.jimthoburn.com/cheerleading)
+* [Band & Pageantry](http://info.azusahigh.jimthoburn.com/bandpageantry)
 

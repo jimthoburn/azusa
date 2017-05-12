@@ -44,4 +44,4 @@ image: "/images/photos/partnerships.jpg"
 
 ## Want to become a partner?
 
-See some examples of [programs and posters](http://info.azusahighschool.jimthoburn.com/partnership/) and [contact us](http://info.azusahighschool.jimthoburn.com/partnership/) to get started.
+See some examples of [programs and posters](http://info.azusahigh.jimthoburn.com/partnership/) and [contact us](http://info.azusahigh.jimthoburn.com/partnership/) to get started.

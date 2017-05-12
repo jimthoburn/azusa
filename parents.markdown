@@ -9,9 +9,9 @@ Parents: We want the best for our students.  In this tough economic time, we ask
 
 ## Parent Groups
 
-* [It takes a community](http://info.azusahighschool.jimthoburn.com/itac)
-* [English Language Advisory Committee](http://info.azusahighschool.jimthoburn.com/elac)
-* [Cafe Azteca](http://info.azusahighschool.jimthoburn.com/cafeazteca)
+* [It takes a community](http://info.azusahigh.jimthoburn.com/itac)
+* [English Language Advisory Committee](http://info.azusahigh.jimthoburn.com/elac)
+* [Cafe Azteca](http://info.azusahigh.jimthoburn.com/cafeazteca)
 
 ## Online grading system for parents
 
@@ -46,7 +46,7 @@ Rockvale Avenue
 * [Azusa PD Safety Tips (Spanish)](http://ahs-ausd-ca.schoolloop.com/file/1331966718479/1335087034083/3846874487371186478.pdf)
 * [Attendance Office](/attendance/)
 * [Bell Schedule](http://ahs-ausd-ca.schoolloop.com/file/1301752510104/1331967107018/832015063604761631.pdf)
-* [Information for Seniors](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1333620021433)
+* [Information for Seniors](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1333620021433)
 * [College/Career Center](/college-career/)
 * [Campus Store](/store/)
 * [Band & Pageantry](/band-pageantry/)

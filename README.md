@@ -1,7 +1,7 @@
 # Azusa High School
 
 This is a design prototype for the Azusa High School website. You can view the site here:
-http://azusahighschool.jimthoburn.com
+http://azusahigh.jimthoburn.com
 
 ## How to make changes
 

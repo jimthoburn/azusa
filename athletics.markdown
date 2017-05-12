@@ -13,71 +13,71 @@ dt {
 </style>
 
 Fall
-: [Football](http://info.azusahighschool.jimthoburn.com/football)
+: [Football](http://info.azusahigh.jimthoburn.com/football)
 : [Volleyball](/volleyball/)
 : [Cross Country](/crosscountry/)
-: [Tennis](http://info.azusahighschool.jimthoburn.com/girlstennis)
+: [Tennis](http://info.azusahigh.jimthoburn.com/girlstennis)
 
 Winter
-: [Basketball](http://info.azusahighschool.jimthoburn.com/gbb)
-: [Soccer](http://info.azusahighschool.jimthoburn.com/girlssoccer)
-: [Wrestling](http://info.azusahighschool.jimthoburn.com/wrestling)
+: [Basketball](http://info.azusahigh.jimthoburn.com/gbb)
+: [Soccer](http://info.azusahigh.jimthoburn.com/girlssoccer)
+: [Wrestling](http://info.azusahigh.jimthoburn.com/wrestling)
 
 Spring
-: [Badminton](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
-: [Baseball](http://info.azusahighschool.jimthoburn.com/baseball)
-: [Softball](http://info.azusahighschool.jimthoburn.com/softball)
-: [Golf](http://info.azusahighschool.jimthoburn.com/girlsgolf)
-: [Track & Field](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
+: [Badminton](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
+: [Baseball](http://info.azusahigh.jimthoburn.com/baseball)
+: [Softball](http://info.azusahigh.jimthoburn.com/softball)
+: [Golf](http://info.azusahigh.jimthoburn.com/girlsgolf)
+: [Track & Field](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
 
 ## Ready to join an athletic team?
 
-Complete the [athletic clearance form](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1451900536688) along with a parent or guardian.
+Complete the [athletic clearance form](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1451900536688) along with a parent or guardian.
 
 <!--
 ## Teams
 
 Badminton
-: [Girls Badminton](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
-: [Boys Badminton](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
+: [Girls Badminton](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
+: [Boys Badminton](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094)
 
 Basketball
-: [Girls Basketball](http://info.azusahighschool.jimthoburn.com/gbb)
-: [Boys Basketball](http://info.azusahighschool.jimthoburn.com/boysbasketball)
+: [Girls Basketball](http://info.azusahigh.jimthoburn.com/gbb)
+: [Boys Basketball](http://info.azusahigh.jimthoburn.com/boysbasketball)
 
 Baseball
-: [Baseball](http://info.azusahighschool.jimthoburn.com/baseball)
+: [Baseball](http://info.azusahigh.jimthoburn.com/baseball)
 
 Cross Country
 : [Cross Country](/crosscountry/)
 
 Football
-: [Football](http://info.azusahighschool.jimthoburn.com/football)
+: [Football](http://info.azusahigh.jimthoburn.com/football)
 
 Golf
-: [Girls Golf](http://info.azusahighschool.jimthoburn.com/girlsgolf)
-: [Boys Golf](http://info.azusahighschool.jimthoburn.com/boysgolf)
+: [Girls Golf](http://info.azusahigh.jimthoburn.com/girlsgolf)
+: [Boys Golf](http://info.azusahigh.jimthoburn.com/boysgolf)
 
 Soccer
-: [Girls Soccer](http://info.azusahighschool.jimthoburn.com/girlssoccer)
-: [Boys Soccer](http://info.azusahighschool.jimthoburn.com/boyssoccer)
+: [Girls Soccer](http://info.azusahigh.jimthoburn.com/girlssoccer)
+: [Boys Soccer](http://info.azusahigh.jimthoburn.com/boyssoccer)
 
 Softball
-: [Softball](http://info.azusahighschool.jimthoburn.com/softball)
+: [Softball](http://info.azusahigh.jimthoburn.com/softball)
 
 Tennis
-: [Girls Tennis](http://info.azusahighschool.jimthoburn.com/girlstennis)
-: [Boys Tennis](http://info.azusahighschool.jimthoburn.com/boystennis)
+: [Girls Tennis](http://info.azusahigh.jimthoburn.com/girlstennis)
+: [Boys Tennis](http://info.azusahigh.jimthoburn.com/boystennis)
 
 Track and Field
-: [Track and Field](http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
+: [Track and Field](http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331)
 
 Volleyball
 : [Volleyball](/volleyball/)
 
 Wrestling
-: [Girls Wrestling](http://info.azusahighschool.jimthoburn.com/wrestling)
-: [Boys Wrestling](http://info.azusahighschool.jimthoburn.com/wrestling)
+: [Girls Wrestling](http://info.azusahigh.jimthoburn.com/wrestling)
+: [Boys Wrestling](http://info.azusahigh.jimthoburn.com/wrestling)
 
 
 <header>
@@ -107,67 +107,67 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
 </style>
 <ul>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
       Badminton
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/baseball">
+    <a href="http://info.azusahigh.jimthoburn.com/baseball">
       Baseball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/crosscountry">
+    <a href="http://info.azusahigh.jimthoburn.com/crosscountry">
       Cross Country
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/football">
+    <a href="http://info.azusahigh.jimthoburn.com/football">
       Football
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlsgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/girlsgolf">
       Golf
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlssoccer">
+    <a href="http://info.azusahigh.jimthoburn.com/girlssoccer">
       Soccer
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/softball">
+    <a href="http://info.azusahigh.jimthoburn.com/softball">
       Softball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlstennis">
+    <a href="http://info.azusahigh.jimthoburn.com/girlstennis">
       Tennis
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
       Track and Field
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/volleyball">
+    <a href="http://info.azusahigh.jimthoburn.com/volleyball">
       Volleyball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/wrestling">
+    <a href="http://info.azusahigh.jimthoburn.com/wrestling">
       Wrestling
     </a>
   </li>
@@ -177,37 +177,37 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
 <!--
 <ul class="news-summary">
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/crosscountry">
+    <a href="http://info.azusahigh.jimthoburn.com/crosscountry">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM5MjU0MzAyMjAuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0OSZjcm9wQm90dG9tPTcxMiZjcm9wTGVmdD01MCZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       <span>Cross Country</span>
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlsgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/girlsgolf">
       <img src="/images/photos/7321768194446709357.jpg_wnp1000.jpg" alt="" />
       <span>Golf</span>
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlstennis">
+    <a href="http://info.azusahigh.jimthoburn.com/girlstennis">
       <img src="/images/athletics/6628778916446280354.jpg_wnp1000.jpg" alt="" />
       <span>Tennis</span>
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
       <img src="/images/athletics/cross-country.jpg" alt="" />
       <span>Track and Field</span>
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/football">
+    <a href="http://info.azusahigh.jimthoburn.com/football">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTMuanBnP2Nyb3BUb3A9MzQmY3JvcFJpZ2h0PTkxNCZjcm9wQm90dG9tPTY1NiZjcm9wTGVmdD04NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       <span>Football</span>
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/volleyball">
+    <a href="http://info.azusahigh.jimthoburn.com/volleyball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       <span>Volleyball</span>
     </a>
@@ -218,102 +218,102 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
 <!--
 <ul>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
       Girls Badminton
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
       Boys Badminton
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       Girls Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysbasketball">
+    <a href="http://info.azusahigh.jimthoburn.com/boysbasketball">
       Boys Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/baseball">
+    <a href="http://info.azusahigh.jimthoburn.com/baseball">
       Baseball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/crosscountry">
+    <a href="http://info.azusahigh.jimthoburn.com/crosscountry">
       Cross Country
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/football">
+    <a href="http://info.azusahigh.jimthoburn.com/football">
       Football
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlsgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/girlsgolf">
       Girls Golf
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/boysgolf">
       Boys Golf
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlssoccer">
+    <a href="http://info.azusahigh.jimthoburn.com/girlssoccer">
       Girls Soccer
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boyssoccer">
+    <a href="http://info.azusahigh.jimthoburn.com/boyssoccer">
       Boys Soccer
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       Girls Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysbasketball">
+    <a href="http://info.azusahigh.jimthoburn.com/boysbasketball">
       Boys Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/softball">
+    <a href="http://info.azusahigh.jimthoburn.com/softball">
       Softball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlstennis">
+    <a href="http://info.azusahigh.jimthoburn.com/girlstennis">
       Girls Tennis
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boystennis">
+    <a href="http://info.azusahigh.jimthoburn.com/boystennis">
       Boys Tennis
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
       Track and Field
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/volleyball">
+    <a href="http://info.azusahigh.jimthoburn.com/volleyball">
       Volleyball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/wrestling">
+    <a href="http://info.azusahigh.jimthoburn.com/wrestling">
       Girls Wrestling
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/wrestling">
+    <a href="http://info.azusahigh.jimthoburn.com/wrestling">
       Boys Wrestling
     </a>
   </li>
@@ -342,31 +342,31 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
 <!--
 <ul class="news-summary">
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Girls Badminton
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1453452544094">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Badminton
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Girls Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysbasketball">
+    <a href="http://info.azusahigh.jimthoburn.com/boysbasketball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/baseball">
+    <a href="http://info.azusahigh.jimthoburn.com/baseball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Baseball
     </a>
@@ -378,91 +378,91 @@ Azusa’s volleyball team is going to [the championship game](http://www.cifstat
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/football">
+    <a href="http://info.azusahigh.jimthoburn.com/football">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTMuanBnP2Nyb3BUb3A9MzQmY3JvcFJpZ2h0PTkxNCZjcm9wQm90dG9tPTY1NiZjcm9wTGVmdD04NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Football
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlsgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/girlsgolf">
       <img src="/images/photos/7321768194446709357.jpg_wnp1000.jpg" alt="" />
       Girls Golf
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysgolf">
+    <a href="http://info.azusahigh.jimthoburn.com/boysgolf">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Golf
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlssoccer">
+    <a href="http://info.azusahigh.jimthoburn.com/girlssoccer">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Girls Soccer
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boyssoccer">
+    <a href="http://info.azusahigh.jimthoburn.com/boyssoccer">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Soccer
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/gbb">
+    <a href="http://info.azusahigh.jimthoburn.com/gbb">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Girls Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boysbasketball">
+    <a href="http://info.azusahigh.jimthoburn.com/boysbasketball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Basketball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/softball">
+    <a href="http://info.azusahigh.jimthoburn.com/softball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Softball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/girlstennis">
+    <a href="http://info.azusahigh.jimthoburn.com/girlstennis">
       <img src="/images/athletics/6628778916446280354.jpg_wnp1000.jpg" alt="" />
       Girls Tennis
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/boystennis">
+    <a href="http://info.azusahigh.jimthoburn.com/boystennis">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Tennis
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
+    <a href="http://info.azusahigh.jimthoburn.com/cms/page_view-d=x&piid=&vpid=1455439364331">
       <img src="/images/athletics/cross-country.jpg" alt="" />
       Track and Field
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/crosscountry">
+    <a href="http://info.azusahigh.jimthoburn.com/crosscountry">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM5MjU0MzAyMjAuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0OSZjcm9wQm90dG9tPTcxMiZjcm9wTGVmdD01MCZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Cross Country
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/volleyball">
+    <a href="http://info.azusahigh.jimthoburn.com/volleyball">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Volleyball
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/wrestling">
+    <a href="http://info.azusahigh.jimthoburn.com/wrestling">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzI5OTU3NTkwMTcuanBnP2Nyb3BUb3A9MzcmY3JvcFJpZ2h0PTk0NCZjcm9wQm90dG9tPTcwMyZjcm9wTGVmdD01NSZiYXNpc1dpZHRoPTEwMDA=.jpeg" alt="" />
       Girls Wrestling
     </a>
   </li>
   <li>
-    <a href="http://info.azusahighschool.jimthoburn.com/wrestling">
+    <a href="http://info.azusahigh.jimthoburn.com/wrestling">
       <img src="/images/photos/aHR0cDovL2Focy1hdXNkLWNhLnNjaG9vbGxvb3AuY29tL3VpbWcvaW1hZ2UvMTMwMTc1MjUxMDEwNC8xNDcxMzMxMjMwNTQ0LzE0NzM0MDUzODYyOTguanBnP2Nyb3BUb3A9MzMmY3JvcFJpZ2h0PTkwMCZjcm9wQm90dG9tPTYzMyZjcm9wTGVmdD0xMDAmYmFzaXNXaWR0aD0xMDAw.jpeg" alt="" />
       Boys Wrestling
     </a>
