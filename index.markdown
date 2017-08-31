@@ -1,7 +1,7 @@
 ---
 title: Azusa High School, Every student college and career ready
 classname: home
-layout: default
+layout: home
 has_wide_content: true
 image: "/images/photos/three-students.png"
 image_focus: bottom
@@ -234,7 +234,7 @@ body > header > a {
 }
 */
 body > header > a {
-  margin-top: -3.75em;
+  margin-top: -3em;
   display: table;
   margin-left: auto;
   margin-right: auto;
@@ -248,6 +248,7 @@ body > header h2 img {
   margin-right: auto;
   transform: none;
   margin-bottom: 0.75em;
+  width: 9.75em;
 }
 body > header h2,
 body > header h2 + p {
