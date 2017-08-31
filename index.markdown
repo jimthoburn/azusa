@@ -3,7 +3,7 @@ title: Azusa High School, Every student college and career ready
 classname: home
 layout: home
 has_wide_content: true
-image: "/images/photos/three-students.png"
+image: "/images/photos/four-students-256-colors.png"
 image_focus: bottom
 ---
 
@@ -92,7 +92,7 @@ body > main > div:first-of-type {
   position: relative;
   z-index: 9999999999;
   padding: 3em 1.5em;
-  margin: 0 -1.5em -3em;
+  margin: 0 -1.5em 0;
   background: rgb(57, 164, 208); /* --light-blue */
   color: white;
   background-image: url(/images/aztec-pattern.svg);
@@ -149,7 +149,7 @@ body > main > div:first-of-type p {
     padding: 3em;
     margin-left: -3em;
     margin-right: -3em;
-    margin-bottom: -3em;
+    margin-bottom: 0;
   }
   body > main > div:first-of-type p {
     font-size: 2vmax;
@@ -509,41 +509,81 @@ Always an Aztec!
 </script>
 -->
 
+<style>
+.video {
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  margin-bottom: -3em;
+  text-align: center;
+  background: black;
+}
+@media (min-width: 60em) {
+  .video {
+    margin-left: -3em;
+    margin-right: -3em;
+  }
+}
+
+.video > div {
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    position: relative
+}
+
+.video video,
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+</style>
+
+<div class="video">
+  <div>
+    <video width="1920" height="1080" controls="controls" poster="https://jimthoburn.com/azusa/movies/azusa.jpg">
+      <source src="https://jimthoburn.com/azusa/movies/azusa.mp4" type="video/mp4" />
+      <source src="https://jimthoburn.com/azusa/movies/azusa.webm" type="video/webm" />
+    </video>
+  </div>
+</div>
+
 <div class="staff-list">
   <h2>Our Teachers</h2>
   <ul>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/img_2203.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mrs. Beaton</h3>
-        <p class="title">English, Yearbook &amp; Leadership</p>
-      </a>
-    </li>
-    <li>
-      <a href="/staff">
-        <img src="/images/teachers/img_1941.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Ms. Benavides</h3>
+        <img src="/images/teachers/img_2203.jpg" width="200" alt="" />
+        <h3>Mrs. Davis</h3>
         <p class="title">English</p>
       </a>
     </li>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/img_2140.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mrs. Bushem</h3>
-        <p class="title">Math</p>
+        <img src="/images/teachers/img_1941.jpg" width="200" alt="" />
+        <h3>Ms. Vogel</h3>
+        <p class="title">Spanish</p>
       </a>
     </li>
     <li>
       <a href="/staff">
-        <img src="/images/teachers/img_1892.jpg" width="200" alt="TODO: Add Teacher’s Name" />
-        <h3>Mr. Calvillo</h3>
+        <img src="/images/teachers/img_2140.jpg" width="200" alt="" />
+        <h3>Mrs. Campos-Ball</h3>
+        <p class="title">AP World History</p>
+      </a>
+    </li>
+    <li>
+      <a href="/staff">
+        <img src="/images/teachers/img_1892.jpg" width="200" alt="" />
+        <h3>Mr. Fritz</h3>
         <p class="title">Music</p>
       </a>
     </li>
   </ul>
   <p>See more <a href="/staff">staff members</a></p>
 </div>
-
 
 <div class="summaries">
   <div class="facilities-summary text" markdown="1">
@@ -642,6 +682,81 @@ Call J. Garcia Photo Studio for senior portrait appointments
 </ul>
 </section>
 
+<style>
+.twitter-list {
+  padding-top: 3em;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div class="twitter-list">
+  <a class="twitter-timeline" data-theme="light" data-link-color="#00AEEF" href="https://twitter.com/Azusaaztecshs">Tweets by Azusaaztecshs</a>
+</div>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+{% comment %}
+
+<style>
+.instagram-list {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  margin-bottom: -3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 3em;
+}
+@supports(display: grid) {
+  @media (min-width: 60em) { /* --big-screen-width */
+    .instagram-list {
+      max-width: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, calc(50% - 3em));
+      grid-gap: 3em;
+      margin-left: -3em;
+      margin-right: -3em;
+      margin-bottom: -6em;
+      padding-left: 3em;
+      padding-right: 3em;
+      padding-bottom: 6em;
+    }
+  }
+}
+</style>
+
+<div class="instagram-list">
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUcvniAjZoI/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">&#34;Como la Flor&#34; performed at the 11th annual #Mariachi Benefit Concert #Azusa #AzusaUnified #k12</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Azusa Unified SD (@azusaunifiedsd) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-23T20:58:57+00:00">May 23, 2017 at 1:58pm PDT</time></p></div></blockquote>
+
+<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:45.32407407407407% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BR6XFnBD_JN/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Azusa Unified SD (@azusaunifiedsd)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-03-21T19:27:38+00:00">Mar 21, 2017 at 12:27pm PDT</time></p></div></blockquote>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BR4GRMejPl9/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Valleydale 5th grade students are exploring science! How many drops of water can a penny hold?</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Azusa Unified SD (@azusaunifiedsd) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-03-20T22:22:11+00:00">Mar 20, 2017 at 3:22pm PDT</time></p></div></blockquote>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BRec-1nDO_i/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Slauson&#39;s 7th grade boys WIN the Championship!</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Azusa Unified SD (@azusaunifiedsd) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-03-10T23:20:25+00:00">Mar 10, 2017 at 3:20pm PST</time></p></div></blockquote>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BRr-fMpDtIq/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Parents advocate in Sacramento on March 15th for balanced transfers between districts.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Azusa Unified SD (@azusaunifiedsd) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-03-16T05:23:19+00:00">Mar 15, 2017 at 10:23pm PDT</time></p></div></blockquote>
+
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BRec-dsDRYJ/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Valleydale students are excited to share the latest vegetables grown in our very own garden!</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Azusa Unified SD (@azusaunifiedsd) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-03-10T23:20:21+00:00">Mar 10, 2017 at 3:20pm PST</time></p></div></blockquote>
+
+</div>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+
+
+{% endcomment %}
+
+
+{% comment %}
+
+
 <div class="feature">
   <h2>
     <svg class="icon" viewBox="0 0 24 24" width="48" height="48">
@@ -679,6 +794,7 @@ Call J. Garcia Photo Studio for senior portrait appointments
     115
   </a>
 </div>
+
 
 <ul class="news-summary">
   <li>
@@ -948,3 +1064,5 @@ Call J. Garcia Photo Studio for senior portrait appointments
     </a>
   </li>
 </ul>
+
+{% endcomment %}
