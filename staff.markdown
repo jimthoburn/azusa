@@ -14,7 +14,7 @@ has_wide_content: true
         <img src="/images/teachers/martin-gomez.jpg" width="200" alt="" />
         <h3>Dr. Martin Gomez</h3>
         <p class="title">Principal</p>
-        <p><a href="mailto:mgomez@azusa.org">mgomez@azusa.org</a></p>
+        <p><a href="mailto:mgomez4@azusa.org">mgomez4@azusa.org</a></p>
         <p>626-815-3400</p>
       </li>
     </ul>
